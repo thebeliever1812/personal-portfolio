@@ -2,3 +2,7 @@
 @plugin "daisyui" {
     themes: light --default, dark --prefersdark;
 }
+
+body {
+    color: white;
+}
