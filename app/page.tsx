@@ -1,4 +1,4 @@
-import { HeroSection } from "./components";
+import { HeroSection } from "./components/HomePageSections";
 
 export const metadata = {
   title: 'Home | Basir Ahmad',
