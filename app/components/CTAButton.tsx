@@ -9,7 +9,7 @@ interface Props {
 const CTAButton: React.FC<Props> = ({ path, children }) => {
     return (
         <Link href={path}>
-            <button className="relative inline-flex items-center gap-3 font-semibold text-white whitespace-nowrap rounded-full pr-3.5 pl-3 py-2.5 bg-[#5200cc] hover:bg-black transition-colors duration-300 overflow-hidden group shadow-[0_0_40px_1px_#5200cc] active:bg-black">
+            <button className="relative inline-flex items-center gap-3 font-semibold text-white whitespace-nowrap rounded-full pr-3.5 pl-3 py-2.5 bg-[#5200cc] hover:bg-black transition-colors duration-300 overflow-hidden group shadow-[0_0_40px_1px_#5200cc] active:bg-black cursor-pointer">
                 {/* Icon wrapper */}
                 <span className="relative w-6 h-6 grid place-items-center flex-shrink-0 rounded-full bg-white text-[#5200cc] transition-colors duration-300 group-hover:text-black overflow-hidden group-active:text-black">
                     {/* Main icon */}
