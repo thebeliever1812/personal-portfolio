@@ -1,4 +1,4 @@
-import { HeroSection } from "./components/HomePageSections";
+import { HeroSection, AboutMeSection } from "./components/HomePageSections";
 
 export const metadata = {
   title: 'Home | Basir Ahmad',
@@ -8,8 +8,9 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <div className="w-full p-4 md:p-8">
+    <div className="w-full p-4 md:p-8 space-y-15">
       <HeroSection />
+      <AboutMeSection />
     </div>
   );
 }
