@@ -46,7 +46,7 @@ const ProjectSpotlight: React.FC = () => {
 
                 <div className='bg-white lg:min-w-xl md:h-96 p-1 rounded-lg border-2 border-dotted border-[#5200cc] hover:scale-103 duration-500 hover:shadow-[0_0_20px_1px_#5200cc] overflow-hidden relative group'>
                     <img src="whisprr.png" alt="whisprr-project-screenshot" className='w-full h-full object-cover object-center rounded-lg' />
-                    <div className='absolute w-2/3 h-full bg-[#5200cc]/80 right-0 top-0 translate-x-[100%] group-hover:translate-x-0 duration-500 p-2 flex gap-2 justify-evenly items-center'>
+                    <div className='absolute w-2/3 h-full bg-[#5200cc]/80 right-0 top-0 translate-x-[100%] group-hover:translate-x-0 duration-500 p-2 xl:flex gap-2 justify-evenly items-center hidden'>
                         <Button path={'https://whisprr-fawn.vercel.app'}>
                             Live Demo
                         </Button>
