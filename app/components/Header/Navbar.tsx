@@ -9,7 +9,7 @@ const Navbar: React.FC = () => {
     const [showMobileNavItems, setShowMobileNavItems] = useState<boolean>(false)
     return (
         <div className=''>
-            <nav className={`px-4 sm:px-8 py-2 flex gap-0 justify-between w-full h-16 items-center ${showMobileNavItems && 'bg-black'} fixed backdrop-blur-[2px] shadow-md`}>
+            <nav className={`z-40 px-4 sm:px-8 py-2 flex gap-0 justify-between w-full h-16 items-center ${showMobileNavItems && 'bg-black'} fixed backdrop-blur-[2px] shadow-md`}>
                 <h2 className='text-xl md:text-3xl flex justify-center items-center overflow-hidden cursor-pointer'>
                     <Link href={'/'}><strong>Basir Ahmad</strong></Link>
                 </h2>
@@ -26,9 +26,9 @@ const Navbar: React.FC = () => {
             {/* Mobile nav overlay */}
 
             <div>
-                <div className={`fixed w-full h-screen bg-black/40 backdrop-blur-[2px] z-40 ${showMobileNavItems ? 'block': 'hidden'}`} onClick={() => setShowMobileNavItems(false)}>
+                <div className={`fixed w-full h-screen bg-black/40 backdrop-blur-[2px] z-50 ${showMobileNavItems ? 'block': 'hidden'}`} onClick={() => setShowMobileNavItems(false)}>
                 </div>
-                <div className={`fixed bg-black w-full max-w-80 h-screen right-0 z-50 px-6 py-3 overflow-y-auto transition-transform duration-500 ease-out  ${showMobileNavItems ? 'translate-x-0' : "translate-x-full"}`}>
+                <div className={`fixed bg-black w-full max-w-80 h-screen right-0 z-[60] px-6 py-3 overflow-y-auto transition-transform duration-500 ease-out  ${showMobileNavItems ? 'translate-x-0' : "translate-x-full"}`}>
                     <button className='menu-btn-close w-9 h-9 text-3xl cursor-pointer hover:bg-[#181818] flex justify-center items-center rounded-full' onClick={() => setShowMobileNavItems(false)}>
                         <IoClose />
                     </button>

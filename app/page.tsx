@@ -1,4 +1,4 @@
-import { HeroSection, AboutMeSection } from "./components/HomePageSections";
+import { HeroSection, AboutMeSection, ProjectSpotlight } from "./components/HomePageSections";
 
 export const metadata = {
   title: 'Home | Basir Ahmad',
@@ -8,9 +8,10 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <div className="w-full p-4 md:p-8 space-y-15">
+    <div className="w-full px-2 md:px-6 py-4 md:py-8 space-y-15">
       <HeroSection />
       <AboutMeSection />
+      <ProjectSpotlight />
     </div>
   );
 }
