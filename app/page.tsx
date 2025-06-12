@@ -1,4 +1,4 @@
-import { HeroSection, AboutMeSection, ProjectSpotlight } from "./components/HomePageSections";
+import { HeroSection, AboutMeSection, ProjectSpotlight, CoreTechnologies } from "./components/HomePageSections";
 
 export const metadata = {
   title: 'Home | Basir Ahmad',
@@ -12,6 +12,7 @@ export default function Home() {
       <HeroSection />
       <AboutMeSection />
       <ProjectSpotlight />
+      <CoreTechnologies />
     </div>
   );
 }
