@@ -1,7 +1,7 @@
 import React from 'react'
-import Heading from '../Heading'
+import {Heading, Button , CTAButton} from '../index'
 import style from './ProjectSpotlight.module.css'
-import Button from '../Button'
+import {ParaContent} from './index'
 
 const ProjectSpotlight: React.FC = () => {
     return (
@@ -65,6 +65,14 @@ const ProjectSpotlight: React.FC = () => {
                     Github Repo
                 </Button>
             </div>
+
+            <ParaContent>
+                <p>I&apos;ve also built several smaller web apps while learning core concepts, such as a weather dashboard, to-do list app, and real-time paste board — each focused on responsive UI and clean code.</p>
+
+                <CTAButton path='/projects'>
+                    See All Projects
+                </CTAButton>
+            </ParaContent>
 
         </section>
     )
