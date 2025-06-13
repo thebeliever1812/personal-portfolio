@@ -1,6 +1,6 @@
 import React from 'react'
-import { Heading } from '../index'
-import { SkillGroup } from './index'
+import { CTAButton, Heading } from '../index'
+import { ParaContent, SkillGroup } from './index'
 
 const CoreTechnologies: React.FC = () => {
     return (
@@ -10,6 +10,12 @@ const CoreTechnologies: React.FC = () => {
             </Heading>
 
             <SkillGroup />
+
+            <ParaContent>
+                <CTAButton path='/skills'>
+                    See All Skills
+                </CTAButton>
+            </ParaContent>
         </section>
     )
 }
