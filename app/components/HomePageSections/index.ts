@@ -4,6 +4,7 @@ import ProjectSpotlight from "./ProjectSpotlight";
 import ParaContent from "./ParaContent";
 import CoreTechnologies from "./CoreTechnologies";
 import SkillGroup from "./SkillGroup";
+import ContactSection from "./ContactSection";
 
 export {
 	HeroSection,
@@ -11,5 +12,6 @@ export {
 	ProjectSpotlight,
 	ParaContent,
 	CoreTechnologies,
-	SkillGroup
+	SkillGroup,
+	ContactSection,
 };

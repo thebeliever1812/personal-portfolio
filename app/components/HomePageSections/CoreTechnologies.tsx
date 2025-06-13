@@ -6,7 +6,7 @@ const CoreTechnologies: React.FC = () => {
     return (
         <section className='core-technologies-section w-full space-y-5 p-3 sm:p-4 rounded-lg'>
             <Heading>
-                Core Technologies
+                CORE TECHNOLOGIES
             </Heading>
 
             <SkillGroup />
