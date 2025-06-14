@@ -3,7 +3,7 @@ import {
     FaHtml5,
     FaCss3Alt,
     FaReact,
-    BiLogoJavascript,
+    FaJsSquare,
     BiLogoTypescript,
     RiNextjsLine,
     RiTailwindCssFill,
@@ -17,7 +17,7 @@ const SkillGroup: React.FC = () => {
     const skills: Skills = {
         HTML: <FaHtml5 />,
         CSS: <FaCss3Alt />,
-        JavaScript: <BiLogoJavascript />,
+        JavaScript: <FaJsSquare />,
         TypeScript: <BiLogoTypescript />,
         React: <FaReact />,
         Nextjs: <RiNextjsLine />,

@@ -5,16 +5,24 @@ import { ParaContent } from './index'
 const ContactSection: React.FC = () => {
     return (
         <Container>
-            <Heading>
-                OPEN TO OPPORTUNITIES
-            </Heading>
+            <section className="px-6 md:px-10 w-full space-y-6 text-center">
+                <Heading>
+                    OPEN TO OPPORTUNITIES
+                </Heading>
 
-            <ParaContent>
-                <p>I'm currently looking for full-time frontend developer roles or freelance projects. Whether you have a question or just want to connect — feel free to reach out!</p>
-                <CTAButton path='/contact'>
-                    Contact Me
-                </CTAButton>
-            </ParaContent>
+                <ParaContent>
+                    <p className="text-gray-400 leading-relaxed ">
+                        I'm currently looking for <span className="font-semibold text-blue-600">full-time frontend developer</span> roles or <span className="font-semibold text-blue-600">freelance projects</span>. Whether you have a question or just want to connect — feel free to reach out!
+                    </p>
+
+                    <div className="pt-4">
+                        <CTAButton path="/contact">
+                            Contact Me
+                        </CTAButton>
+                    </div>
+                </ParaContent>
+            </section>
+
         </Container>
     )
 }
