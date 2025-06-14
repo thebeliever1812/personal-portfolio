@@ -1,22 +1,23 @@
 import React from 'react'
-import { CTAButton, Heading } from '../index'
+import { Container, CTAButton, Heading } from '../index'
 import { ParaContent, SkillGroup } from './index'
 
 const CoreTechnologies: React.FC = () => {
     return (
-        <section className='core-technologies-section w-full space-y-5 p-3 sm:p-4 rounded-lg'>
+        <Container>
             <Heading>
                 CORE TECHNOLOGIES
             </Heading>
 
-            <SkillGroup />
-
             <ParaContent>
+                <SkillGroup />
+
                 <CTAButton path='/skills'>
                     See All Skills
                 </CTAButton>
             </ParaContent>
-        </section>
+
+        </Container>
     )
 }
 

@@ -1,10 +1,10 @@
 import React from 'react'
-import { CTAButton, Heading } from '../index'
+import { CTAButton, Heading, Container } from '../index'
 import { ParaContent } from './index'
 
 const AboutMeSection: React.FC = () => {
     return (
-        <section className='about-me-section w-full space-y-5 p-3 sm:p-4 rounded-lg'>
+        <Container>
             <Heading>
                 ABOUT ME
             </Heading>
@@ -15,9 +15,7 @@ const AboutMeSection: React.FC = () => {
                     Know more
                 </CTAButton>
             </ParaContent>
-
-
-        </section>
+        </Container>
     )
 }
 

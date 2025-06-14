@@ -1,15 +1,15 @@
 import React from 'react'
-import {Heading, Button , CTAButton} from '../index'
+import { Heading, Button, CTAButton, Container } from '../index'
 import style from './ProjectSpotlight.module.css'
-import {ParaContent} from './index'
+import { ParaContent } from './index'
 
 const ProjectSpotlight: React.FC = () => {
     return (
-        <section className='project-spotlight-section w-full space-y-5 p-3 sm:p-4 rounded-lg'>
+        <Container>
             <Heading>
                 PROJECT SPOTLIGHT
             </Heading>
-            <div className='flex flex-col justify-center items-center xl:flex-row xl:items-center xl:justify-center'>
+            <div className='flex flex-col justify-center items-center'>
                 <div className='bg-black w-full lg:min-w-[400px] max-w-2xl p-3 md:p-4 rounded-lg border-2 border-dotted border-[#5200cc] hover:scale-103 duration-500 hover:shadow-[0_0_20px_1px_#5200cc] space-y-2 md:space-y-0 flex md:gap-5 flex-col md:flex-row md:items-start'>
                     <section className='name-description p-1 w-full space-y-2 '>
                         <h3 className='text-xl font-semibold text-[#5200cc]'>
@@ -42,9 +42,9 @@ const ProjectSpotlight: React.FC = () => {
                     </section>
                 </div>
 
-                <div className='border xl:w-full xl:max-w-10 xl:h-0.5 h-8'></div>
+                <div className='border h-8'></div>
 
-                <div className='bg-white lg:min-w-xl md:h-96 p-1 rounded-lg border-2 border-dotted border-[#5200cc] hover:scale-103 duration-500 hover:shadow-[0_0_20px_1px_#5200cc] overflow-hidden relative group'>
+                <div className='bg-white w-full max-w-2xl p-1 rounded-lg border-2 border-dotted border-[#5200cc] hover:scale-103 duration-500 hover:shadow-[0_0_20px_1px_#5200cc] overflow-hidden relative group'>
                     <img src="whisprr.png" alt="whisprr-project-screenshot" className='w-full h-full object-cover object-center rounded-lg' />
                     <div className='absolute w-2/3 h-full bg-[#5200cc]/80 right-0 top-0 translate-x-[100%] group-hover:translate-x-0 duration-500 p-2 xl:flex gap-2 justify-evenly items-center hidden'>
                         <Button path={'https://whisprr-fawn.vercel.app'}>
@@ -73,8 +73,7 @@ const ProjectSpotlight: React.FC = () => {
                     See All Projects
                 </CTAButton>
             </ParaContent>
-
-        </section>
+        </Container>
     )
 }
 
