@@ -34,7 +34,7 @@ const SkillGroup: React.FC = () => {
                                 <span className='lg:text-black lg:group-hover:text-[#330080] text-5xl duration-500 text-[#330080]'>{icon}</span>
                             </div>
                             <div className='w-full h-full flex justify-center items-start lg:items-center mt-2 lg:mt-0'>
-                                <span className='text-2xl rotate-[270deg] absolute bottom-20 right-0 left-0 duration-200 opacity-100 group-hover:opacity-0 lg:block hidden'>
+                                <span className='text-xl rotate-[270deg] absolute bottom-20 right-0 left-0 duration-200 opacity-100 group-hover:opacity-0 lg:block hidden'>
                                     {skill}
                                 </span>
                                 <span className='lg:opacity-0 lg:group-hover:opacity-100'>

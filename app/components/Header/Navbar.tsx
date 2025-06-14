@@ -4,11 +4,18 @@ import Link from 'next/link'
 import { TbMenuDeep } from "react-icons/tb";
 import { IoClose } from "react-icons/io5";
 import NavItems from './NavItems';
+import { Rubik } from 'next/font/google';
+
+const rubik = Rubik({
+    weight: ['400', '500', '600', '700'],
+    subsets: ['latin'],
+    variable: '--font-rubik',
+})
 
 const Navbar: React.FC = () => {
     const [showMobileNavItems, setShowMobileNavItems] = useState<boolean>(false)
     return (
-        <div className=''>
+        <div className={`${rubik.className}`}>
             <nav className={`z-40 px-4 sm:px-8 py-2 flex gap-0 justify-between w-full h-16 items-center ${showMobileNavItems && 'bg-black'} fixed backdrop-blur-md shadow-md`}>
                 <h2 className='text-xl md:text-3xl flex justify-center items-center overflow-hidden cursor-pointer'>
                     <Link href={'/'}><strong>Basir Ahmad</strong></Link>
