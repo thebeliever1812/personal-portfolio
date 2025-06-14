@@ -9,7 +9,7 @@ const Navbar: React.FC = () => {
     const [showMobileNavItems, setShowMobileNavItems] = useState<boolean>(false)
     return (
         <div className=''>
-            <nav className={`z-40 px-4 sm:px-8 py-2 flex gap-0 justify-between w-full h-16 items-center ${showMobileNavItems && 'bg-black'} fixed backdrop-blur-[2px] shadow-md`}>
+            <nav className={`z-40 px-4 sm:px-8 py-2 flex gap-0 justify-between w-full h-16 items-center ${showMobileNavItems && 'bg-black'} fixed backdrop-blur-md shadow-md`}>
                 <h2 className='text-xl md:text-3xl flex justify-center items-center overflow-hidden cursor-pointer'>
                     <Link href={'/'}><strong>Basir Ahmad</strong></Link>
                 </h2>
