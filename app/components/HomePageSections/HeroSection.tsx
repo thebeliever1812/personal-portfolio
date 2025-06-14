@@ -3,7 +3,7 @@ import { ResumeButton } from "../index";
 
 const HeroSection: React.FC = () => {
     return (
-        <section className="hero-section w-full min-h-screen rounded-lg px-4 flex flex-col md:flex-row-reverse gap-5 lg:gap-10 justify-evenly items-center">
+        <section className="hero-section w-full min-h-screen rounded-lg px-4 flex flex-col md:flex-row-reverse gap-5 lg:gap-10 justify-start md:justify-center py-10 md:py-0 items-center">
             {/* Photo */}
             <img src="/fallback_profile_image.jpg" alt="Basir Ahmad's profile photo" className="w-72 md:w-sm lg:w-lg mx-auto sm:m-0 rounded-full bg-cover bg-center shadow-[5px_5px_40px_0_#330080] select-none" />
             {/* name title tagline */}

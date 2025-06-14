@@ -65,7 +65,7 @@ export default function RootLayout({
   return (
     <html lang="en" data-theme="light">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen bg-linear-to-tr from-[#0a001a] via-[#140033] to-[#1f005a]`}
+        className={`antialiased flex flex-col min-h-screen bg-linear-to-tr from-[#0a001a] via-[#140033] to-[#1f005a]`}
       >
         <header>
           <Header />
