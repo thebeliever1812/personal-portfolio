@@ -1,10 +1,10 @@
 import React from 'react'
-import { Heading, CTAButton } from '../index'
+import { Heading, CTAButton, Container } from '../index'
 import { ParaContent } from '../HomePageSections'
 
 const WhatIWant: React.FC = () => {
     return (
-        <section className="what-i-want w-full space-y-6 p-6 md:p-10">
+        <Container>
             <Heading>
                 WHAT I'M LOOKING FOR
             </Heading>
@@ -19,7 +19,7 @@ const WhatIWant: React.FC = () => {
                     Get in Touch
                 </CTAButton>
             </ParaContent>
-        </section>
+        </Container>
     )
 }
 

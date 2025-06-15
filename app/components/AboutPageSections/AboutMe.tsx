@@ -1,10 +1,10 @@
 import React from 'react'
-import {  Heading } from '../index'
+import { Container, Heading } from '../index'
 import { ParaContent } from '../HomePageSections'
 
 const AboutMe: React.FC = () => {
     return (
-        <section className="about-me w-full space-y-6 p-6 md:p-10">
+        <Container>
             <Heading>
                 ABOUT ME
             </Heading>
@@ -17,7 +17,7 @@ const AboutMe: React.FC = () => {
                     My focus is on writing <span className="text-blue-600 font-medium">clean, efficient code</span> and developing interfaces that not only look good but also feel intuitive to use. Over the past few months, I've built several frontend projects, including a <span className="italic font-medium text-blue-600">full-fledged blog app</span>, and continuously aim to refine both my technical and design sense.
                 </p>
             </ParaContent>
-        </section>
+        </Container>
     )
 }
 

@@ -37,7 +37,7 @@ const SkillGroup: React.FC = () => {
                                 <span className='text-xl rotate-[270deg] absolute bottom-20 right-0 left-0 duration-200 opacity-100 group-hover:opacity-0 lg:block hidden'>
                                     {skill}
                                 </span>
-                                <span className='lg:opacity-0 lg:group-hover:opacity-100'>
+                                <span className='text-xs lg:text-md lg:opacity-0 lg:group-hover:opacity-100'>
                                     {skill}
                                 </span>
                             </div>

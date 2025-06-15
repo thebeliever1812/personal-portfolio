@@ -1,10 +1,10 @@
 import React from 'react'
-import { Heading } from '../index'
+import { Container, Heading } from '../index'
 import { ParaContent } from '../HomePageSections'
 
 const Education: React.FC = () => {
     return (
-        <section className='education space-y-6 w-full p-6 md:p-10'>
+        <Container>
             <Heading>
                 Education & Learning Journey
             </Heading>
@@ -33,7 +33,7 @@ const Education: React.FC = () => {
                 </div>
 
             </ParaContent>
-        </section>
+        </Container>
     )
 }
 

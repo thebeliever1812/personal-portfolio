@@ -1,10 +1,10 @@
 import React from 'react'
-import { Heading, SkillIcon, CTAButton } from '../index'
+import { Heading, SkillIcon, CTAButton, Container } from '../index'
 import { ParaContent } from '../HomePageSections'
 
 const TechStack: React.FC = () => {
     return (
-        <section className='tech-stack space-y-6 w-full p-6 md:p-10'>
+        <Container>
             <Heading>
                 MY TECH STACK
             </Heading>
@@ -31,7 +31,7 @@ const TechStack: React.FC = () => {
                     See All Skills
                 </CTAButton>
             </ParaContent>
-        </section>
+        </Container>
     )
 }
 
