@@ -1,11 +1,10 @@
 import React from 'react'
-import { CTAButton, Heading } from '../components'
+import { CTAButton, Heading, SkillIcon } from '../components'
 import { ParaContent } from '../components/HomePageSections'
-import SkillIcon from '../components/SkillIcon'
 import { Metadata } from 'next'
 
-const metaData: Metadata = {
-    title: 'About Me | Basir Ahmad',
+export const metadata: Metadata = {
+    title: 'About Me',
     description: 'Learn more about Basir Ahmad, discover the frontend technologies he works with, and explore his journey in web development.',
     keywords: 'Basir Ahmad, frontend developer, web development, about me'
 }
