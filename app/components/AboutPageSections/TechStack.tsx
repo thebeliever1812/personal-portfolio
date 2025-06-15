@@ -23,7 +23,7 @@ const TechStack: React.FC = () => {
                     <SkillIcon skill='react' className='text-cyan-500' />
                     <SkillIcon skill='nextjs' className='text-white' />
                     <SkillIcon skill='tailwind' className='text-sky-500' />
-                    <SkillIcon skill='github' className='text-gray-600' />
+                    <SkillIcon skill='github' className='text-white' />
                     <SkillIcon skill='redux' className='text-violet-700' />
                     <SkillIcon skill='appwrite' className='text-rose-500' />
                 </section>

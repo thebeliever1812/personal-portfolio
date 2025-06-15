@@ -5,7 +5,23 @@ import { AboutMe, WhatIDo, TechStack, Education, WhatSetsMeApart, WhatIWant } fr
 export const metadata: Metadata = {
     title: 'About Me',
     description: 'Learn more about Basir Ahmad, discover the frontend technologies he works with, and explore his journey in web development.',
-    keywords: 'Basir Ahmad, frontend developer, web development, about me'
+    keywords: [
+        'Basir Ahmad',
+        'About Basir Ahmad',
+        'Frontend Developer Bio',
+        'Web Developer Introduction',
+        'React Developer from Delhi',
+        'BCA Graduate Developer',
+        'Self-taught Frontend Developer',
+        'Portfolio About Page',
+        'Web Development Journey',
+        'Basir Ahmad Developer Journey',
+        'Frontend Developer from India',
+        'Learning Frontend Development',
+        'CodeHelp DSA Certified',
+        'Junior Frontend Developer',
+        'Beginner Web Developer Story'
+    ]
 }
 
 const About: React.FC = () => {

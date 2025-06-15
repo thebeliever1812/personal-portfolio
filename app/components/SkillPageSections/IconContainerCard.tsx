@@ -1,0 +1,32 @@
+import React from 'react'
+import { Rubik } from 'next/font/google';
+
+const rubik = Rubik({
+    subsets: ['latin'],
+    weight: ['400', '500', '600', '700'],
+    variable: '--font-rubik',
+});
+
+interface IconContainerCardProps {
+    heading: string;
+    children: React.ReactNode;
+}
+
+const IconContainerCard: React.FC<IconContainerCardProps> = ({ heading, children }) => {
+    return (
+        <div className={`flex flex-col w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl gap-4 items-center border border-gray-700 px-5 py-8 rounded-lg bg-black/50 shadow-[0_0_20px_0_#290066] ${rubik.className}`}>
+            <h3 className='text-2xl font-semibold'>
+                {heading}
+            </h3>
+            <ul className='list-none grid grid-cols-2 gap-5 mt-2 sm:grid-cols-3 justify-items-center'>
+                {React.Children.map(children, (child, index) => (
+                    <li key={index} className='flex justify-center items-center'>
+                        {child}
+                    </li>
+                ))}
+            </ul>
+        </div>
+    )
+}
+
+export default IconContainerCard

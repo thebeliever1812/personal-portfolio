@@ -5,8 +5,8 @@ interface Props {
     children: React.ReactNode
 }
 
-const savate = Rubik({
-    variable: '--font-savate',
+const rubik = Rubik({
+    variable: '--font-rubik',
     subsets: ['latin'],
     weight: ['400', '500', '600', '700'],
 })
@@ -14,7 +14,7 @@ const savate = Rubik({
 const ParaContent: React.FC<Props> = ({ children }) => {
     return (
         <div className='w-full flex justify-center'>
-            <div className={`bg-black/40 p-4 rounded-lg space-y-5 w-full max-w-5xl text-center ${savate.className} text-white`}>
+            <div className={`bg-black/50 p-4 rounded-lg space-y-5 w-full max-w-5xl text-center ${rubik.className} text-white`}>
                 {children}
             </div>
         </div>
