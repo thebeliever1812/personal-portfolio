@@ -4,7 +4,9 @@ import { HeroSection, AboutMeSection, ProjectSpotlight, CoreTechnologies, Contac
 export const metadata: Metadata = {
   title: 'Home | Basir Ahmad',
   description:
-    'Welcome to the portfolio of Basir Ahmad, a frontend developer crafting responsive web apps using React, Next.js, Tailwind CSS, and TypeScript.',
+    'Welcome to the portfolio of Basir Ahmad, showcasing featured projects, skills, and contact information for frontend development roles.',
+  keywords:
+    'Basir Ahmad, frontend developer, web developer, portfolio, web development, projects, skills, contact',
 };
 
 export default function Home() {
