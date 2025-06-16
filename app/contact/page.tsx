@@ -27,7 +27,7 @@ const Contact: React.FC = () => {
                 </Heading>
                 <ParaContent>
                     <p className='text-gray-400 leading-relaxed tracking-wide'>
-                        I'm currently open to full-time frontend developer roles and freelance opportunities. Whether you have a job opening, a collaboration idea, or just want to say hello — I'd love to hear from you.
+                        I&apos;m currently open to full-time frontend developer roles and freelance opportunities. Whether you have a job opening, a collaboration idea, or just want to say hello — I&apos;d love to hear from you.
                     </p>
                 </ParaContent>
             </Container>
