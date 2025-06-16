@@ -12,7 +12,7 @@ const WhatIDo: React.FC = () => {
             <ParaContent>
                 <p className="text-gray-400 text-base leading-relaxed">
                     I design and develop <span className="font-medium text-blue-600">responsive</span>, <span className="font-medium text-blue-600">accessible</span>, and <span className="font-medium text-blue-600">user-focused</span> web interfaces using modern frontend technologies.
-                    My goal isn&apos;t just to make things work — it's to make them work <span className="italic text-white">beautifully</span> and <span className="italic text-white">efficiently</span>.
+                    My goal isn&apos;t just to make things work — it&apos;s to make them work <span className="italic text-white">beautifully</span> and <span className="italic text-white">efficiently</span>.
                 </p>
 
                 <div className="mt-4">

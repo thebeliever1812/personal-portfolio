@@ -12,7 +12,7 @@ const ContactSection: React.FC = () => {
 
                 <ParaContent>
                     <p className="text-gray-400 leading-relaxed ">
-                        I'm currently looking for <span className="font-semibold text-blue-600">full-time frontend developer</span> roles or <span className="font-semibold text-blue-600">freelance projects</span>. Whether you have a question or just want to connect — feel free to reach out!
+                        I&apos;m currently looking for <span className="font-semibold text-blue-600">full-time frontend developer</span> roles or <span className="font-semibold text-blue-600">freelance projects</span>. Whether you have a question or just want to connect — feel free to reach out!
                     </p>
 
                     <div className="pt-4">
