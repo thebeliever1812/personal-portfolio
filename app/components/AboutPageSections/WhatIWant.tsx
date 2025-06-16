@@ -6,7 +6,7 @@ const WhatIWant: React.FC = () => {
     return (
         <Container>
             <Heading>
-                WHAT I'M LOOKING FOR
+                WHAT I&apos;M LOOKING FOR
             </Heading>
             <ParaContent>
                 <p className="text-gray-400 leading-relaxed tracking-wide">
