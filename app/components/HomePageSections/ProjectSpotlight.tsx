@@ -3,6 +3,7 @@ import { Heading, Button, CTAButton, Container } from '../index'
 import style from './ProjectSpotlight.module.css'
 import { ParaContent } from './index'
 import { Rubik } from 'next/font/google'
+import Image from 'next/image'
 
 const rubik = Rubik({
     weight: ['400', '500', '600', '700'],
@@ -53,7 +54,13 @@ const ProjectSpotlight: React.FC = () => {
                     <div className='border h-8'></div>
 
                     <div className={`bg-white w-full max-w-2xl p-1 rounded-lg border-2 border-dotted border-[#5200cc] hover:scale-103 duration-500 hover:shadow-[0_0_20px_1px_#5200cc] overflow-hidden relative group ${rubik.className}`}>
-                        <img src="whisprr.png" alt="whisprr-project-screenshot" className='w-full h-full object-cover object-center rounded-lg' />
+                        <Image
+                            src="/whisprr.png"
+                            alt="whisprr project screenshot"
+                            width={800} // adjust as per actual image size or layout needs
+                            height={500} // adjust as per actual image size or layout needs
+                            className="w-full h-full object-cover object-center"
+                        />
                         <div className='absolute w-2/3 h-full bg-[#5200cc]/80 right-0 top-0 translate-x-[100%] group-hover:translate-x-0 duration-500 p-2 xl:flex gap-2 justify-evenly items-center hidden'>
                             <Button path={'https://whisprr-fawn.vercel.app'}>
                                 Live Demo

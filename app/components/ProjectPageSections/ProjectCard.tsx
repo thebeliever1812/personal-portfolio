@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react'
 import { Rubik } from 'next/font/google'
 import { Button } from '../index'
+import Image from 'next/image'
 
 const rubik = Rubik({
     variable: '--font-rubik',
@@ -40,7 +41,16 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title = 'No title', descripti
                 <div>
                     {/* Image */}
                     <div className="bg-white rounded-lg border-2 border-[#1f004d] hover:scale-103 overflow-hidden">
-                        <img src={imageUrl} alt={imageAltText} loading='lazy' className='w-full h-full object-center object-cover' />
+                        {imageUrl && (
+                            <Image
+                                src={imageUrl}
+                                alt={imageAltText ?? 'Project image'}
+                                width={800}
+                                height={500}
+                                className="w-full h-full object-cover object-center"
+                                loading="lazy"
+                            />
+                        )}
                     </div>
                 </div>
 
