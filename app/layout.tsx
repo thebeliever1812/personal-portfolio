@@ -52,7 +52,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" data-theme="light">
+    <html lang="en">
       <body
         className={`antialiased flex flex-col min-h-screen bg-linear-to-tr from-[#0a001a] via-[#140033] to-[#1f005a]`}
       >
