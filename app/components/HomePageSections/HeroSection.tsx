@@ -18,14 +18,15 @@ const rubik = Rubik({
 const HeroSection: React.FC = () => {
     return (
         <section className="hero-section w-full min-h-screen rounded-lg px-4 flex flex-col md:flex-row-reverse gap-5 lg:gap-10 justify-start md:justify-center py-20 md:py-0 items-center">
-            <Image
-                src="/profile_picture.png"
-                alt="Basir Ahmad smiling in a professional headshot, wearing a neutral shirt, set against a simple background. The mood is friendly and approachable. No visible text in the image."
-                width={400} // 72 * 4 = 288px (same as `w-72`)
-                height={400} // assuming square image, adjust if needed
-                className="mx-auto sm:m-0 rounded-full shadow-[5px_5px_40px_0_#330080] select-none"
-                priority // if this image is above the fold, use priority instead of loading="lazy"
-            />
+            <div className='profile-image w-full max-w-xs md:max-w-sm lg:max-w-md xl:max-w-lg aspect-square relative'>
+                <Image
+                    src="/profile_picture.png"
+                    alt="Basir Ahmad smiling in a professional headshot, wearing a neutral shirt, set against a simple background. The mood is friendly and approachable. No visible text in the image."
+                    fill
+                    className="mx-auto sm:m-0 rounded-full shadow-[5px_5px_40px_0_#330080] select-none"
+                    priority // if this image is above the fold, use priority instead of loading="lazy"
+                />
+            </div>
             <section className='flex flex-col items-center justify-center text-center gap-2 md:gap-4 w-full max-w-3xl'>
                 <h1 className={`text-3xl lg:text-4xl xl:text-6xl font-bold text-shadow-sm text-shadow-current select-none ${heroFont.className}`}>
                     Hi, I&apos;m <i>Basir Ahmad</i>
