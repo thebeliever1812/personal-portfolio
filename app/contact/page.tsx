@@ -1,7 +1,6 @@
 import React from 'react'
-import { Container, Heading } from '../components'
-import { ParaContent } from '../components/HomePageSections'
 import { Metadata } from 'next'
+import { ContactForm, Intro } from '../components/ContactPageSections'
 
 export const metadata: Metadata = {
     title: 'Contact',
@@ -20,27 +19,9 @@ export const metadata: Metadata = {
 
 const Contact: React.FC = () => {
     return (
-        <div className='w-full'>
-            <Container>
-                <Heading>
-                    Let&apos;s Connect
-                </Heading>
-                <ParaContent>
-                    <p className='text-gray-400 leading-relaxed tracking-wide'>
-                        I&apos;m currently open to full-time frontend developer roles and freelance opportunities. Whether you have a job opening, a collaboration idea, or just want to say hello — I&apos;d love to hear from you.
-                    </p>
-                </ParaContent>
-            </Container>
-            <Container>
-                <ParaContent>
-                    <p className='text-white leading-relaxed tracking-wide'>
-                        Email: basirahmadmalik@gmail.com
-                    </p>
-                    <p className='text-white leading-relaxed tracking-wide'>
-                        Phone: +91-7982703595
-                    </p>
-                </ParaContent>
-            </Container>
+        <div className='w-full min-h-screen'>
+            <Intro />
+            <ContactForm />
         </div>
     )
 }
