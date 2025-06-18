@@ -91,8 +91,8 @@ No additional setup is required.
 Feel free to reach out:
 
 - **Email**: basirahmadmalik@gmail.com
-- **LinkedIn**: [https://www.linkedin.com/in/basir-ahmad-1a5851210](https://www.linkedin.com/in/basir-ahmad-1a5851210)
-- **GitHub**: [@thebeliever1812](https://github.com/thebeliever1812)
+- **LinkedIn**: [Click to open Linkedin](https://www.linkedin.com/in/basir-ahmad-1a5851210)
+- **GitHub**: [Click to open Github](https://github.com/thebeliever1812)
 
 ---
 
