@@ -34,7 +34,7 @@ const HeroSection: React.FC = () => {
                 <h2 className={`text-xl lg:text-2xl xl:text-3xl md:pt-2 text-shadow-xs text-shadow-current select-none ${rubik.className}`}>
                     — a passionate <span className="text-[#6600ff] font-semibold">Frontend Developer</span>
                 </h2>
-                <p className={`text-gray-200 pt-2 md:pt-4 text-center ${rubik.className}`}>I design and develop responsive, user-friendly interfaces using React/Next.js & Tailwind.</p>
+                <p className={`text-gray-400 pt-2 md:pt-4 text-center ${rubik.className}`}>I design and develop responsive, accessible, and user-friendly web interfaces using React, Next.js, and Tailwind CSS. My focus is on building high-performance, modern frontend experiences that are optimized for both usability and scalability across all devices.</p>
                 <div className={`pt-8 sm:pt-10 w-full ${rubik.className}`}>
                     <ResumeButton />
                 </div>
