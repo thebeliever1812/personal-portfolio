@@ -1,36 +1,140 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Basir Ahmad – Personal Portfolio
 
-## Getting Started
+Welcome to my personal portfolio! 🚀  
+This repository contains the full source code for my portfolio website, live at **[https://basir-ahmad-portfolio.vercel.app](https://basir-ahmad-portfolio.vercel.app)**.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 📖 About
+
+I’m **Basir Ahmad**, a passionate Full‑Stack Web Developer. This site showcases my skills, projects, and contact info in a clean, modern UI built with Next.js and TypeScript.
+
+---
+
+## 🌐 Live Demo
+
+View the live version here:  
+**https://basir-ahmad-portfolio.vercel.app**
+
+---
+
+## 💡 Features
+
+- **Responsive UI** for seamless use on desktop and mobile
+- **Next.js App Router** for fast performance and SEO
+- **TypeScript** throughout for type safety and robustness
+- **Tailwind CSS** for streamlined styling and layout
+- **Component‑based structure**, including reusable NavBar, Hero, Skills, Projects, and Contact sections
+- **Easy deployment** via Vercel
+
+---
+
+## 🛠️ Tech Stack & Tools
+
+- **Framework**: Next.js (TypeScript)
+- **Styling**: Tailwind CSS
+- **Version Control**: Git & GitHub
+- **Deployment**: Vercel
+- **Other Tools**: ESLint, Prettier
+
+---
+
+## 🗂️ Repo Structure
+
+```
+personal-portfolio/
+├── app/
+│ ├── page.tsx # Home page entry (Next.js App Router)
+│ ├── components/ # Reusable UI components
+│ └── styles/ # Global.css
+├── public/ # Static assets (icons, images)
+├── next.config.ts # Next.js config
+├── tsconfig.json # TypeScript config
+├── eslint.config.mjs # Linting rules
+└── package.json # Scripts & dependencies
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ⚙️ Running Locally
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Clone the repo:
 
-## Learn More
+   ```bash
+   git clone https://github.com/thebeliever1812/personal-portfolio.git
+   cd personal-portfolio
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. Install dependencies:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   npm install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🚀 Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Hosted on **Vercel** (created with `create-next-app`).  
+Any push to the `main` branch automatically deploys a new version.  
+No additional setup is required.
+
+---
+
+## 📫 Contact
+
+Feel free to reach out:
+
+- **Email**: basirahmadmalik@gmail.com
+- **LinkedIn**: [linkedin.com/in/basir-ahmad](https://www.linkedin.com/in/basir-ahmad)
+- **GitHub**: [@thebeliever1812](https://github.com/thebeliever1812)
+
+---
+
+## ✅ Contributing
+
+Contributions are welcome!
+
+1. **Fork** the repository
+
+2. **Create a feature branch**
+
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+
+3. **Commit your changes**
+
+   ```bash
+   git commit -m "Add your feature"
+   ```
+
+4. **Push to your fork**
+
+   ```bash
+   git push origin feature/YourFeature
+   ```
+
+5. **Open a pull request**
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.  
+See the [LICENSE](LICENSE) file for more details.
+
+---
+
+## 📝 Summary
+
+- 🚧 Built with **Next.js**, **TypeScript**, and **Tailwind CSS**
+- 📱 Supports **responsive design** and **SEO-friendly** routes
+- ☁️ Deployed seamlessly via **Vercel**
+- 🧱 Clean code structure: `components/`, `config/`, `styles/`
+- 📫 Includes **contact information** and **contribution guidelines**
