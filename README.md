@@ -7,7 +7,7 @@ This repository contains the full source code for my portfolio website, live at 
 
 ## 📖 About
 
-I’m **Basir Ahmad**, a passionate Full‑Stack Web Developer. This site showcases my skills, projects, and contact info in a clean, modern UI built with Next.js and TypeScript.
+I’m **Basir Ahmad**, a passionate Frontend Web Developer. This site showcases my skills, projects, and contact info in a clean, modern UI built with Next.js and TypeScript.
 
 ---
 
@@ -91,43 +91,8 @@ No additional setup is required.
 Feel free to reach out:
 
 - **Email**: basirahmadmalik@gmail.com
-- **LinkedIn**: [linkedin.com/in/basir-ahmad](https://www.linkedin.com/in/basir-ahmad)
+- **LinkedIn**: [https://www.linkedin.com/in/basir-ahmad-1a5851210](https://www.linkedin.com/in/basir-ahmad-1a5851210)
 - **GitHub**: [@thebeliever1812](https://github.com/thebeliever1812)
-
----
-
-## ✅ Contributing
-
-Contributions are welcome!
-
-1. **Fork** the repository
-
-2. **Create a feature branch**
-
-   ```bash
-   git checkout -b feature/YourFeature
-   ```
-
-3. **Commit your changes**
-
-   ```bash
-   git commit -m "Add your feature"
-   ```
-
-4. **Push to your fork**
-
-   ```bash
-   git push origin feature/YourFeature
-   ```
-
-5. **Open a pull request**
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License**.  
-See the [LICENSE](LICENSE) file for more details.
 
 ---
 
@@ -138,3 +103,5 @@ See the [LICENSE](LICENSE) file for more details.
 - ☁️ Deployed seamlessly via **Vercel**
 - 🧱 Clean code structure: `components/`, `config/`, `styles/`
 - 📫 Includes **contact information** and **contribution guidelines**
+
+> 📌 This project is intended for portfolio/demo purposes only. Please do not reuse the code without permission.
