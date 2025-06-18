@@ -104,4 +104,6 @@ Feel free to reach out:
 - 🧱 Clean code structure: `components/`, `config/`, `styles/`
 - 📫 Includes **contact information** and **contribution guidelines**
 
+---
+
 > 📌 This project is intended for portfolio/demo purposes only. Please do not reuse the code without permission.
