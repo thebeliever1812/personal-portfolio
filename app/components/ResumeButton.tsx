@@ -5,7 +5,6 @@ const ResumeButton: React.FC = () => {
     return (
         <a
             href="/Basir_Ahmad_Frontend_Resume.pdf"
-            download
             target="_blank"
             rel="noopener noreferrer">
             <button
