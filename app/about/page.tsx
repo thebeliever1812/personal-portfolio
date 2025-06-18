@@ -1,6 +1,6 @@
 import React from 'react'
 import { Metadata } from 'next'
-import { AboutMe, WhatIDo, TechStack, Education, WhatSetsMeApart, WhatIWant } from '../components/AboutPageSections'
+import { WhoIAm, WhatIDo, TechStack, Education, WhatSetsMeApart, WhatIWant } from '../components/AboutPageSections'
 
 export const metadata: Metadata = {
     title: 'About Me',
@@ -28,7 +28,7 @@ const About: React.FC = () => {
     return (
         <section className='w-full max-w-6xl mx-auto px-4 md:px-8 py-8 space-y-5 min-h-screen flex flex-col justify-start items-center'>
             {/* About me component*/}
-            <AboutMe />
+            <WhoIAm />
 
             {/* What i do component*/}
             <WhatIDo />

@@ -29,7 +29,7 @@ const HeroSection: React.FC = () => {
             </div>
             <section className='flex flex-col items-center justify-center text-center gap-2 md:gap-4 w-full max-w-3xl'>
                 <h1 className={`text-3xl lg:text-4xl xl:text-6xl font-bold text-shadow-sm text-shadow-current select-none ${heroFont.className}`}>
-                    Hi, I&apos;m <i>Basir Ahmad</i>
+                    Hii, I&apos;m <i>Basir Ahmad</i>
                 </h1>
                 <h2 className={`text-xl lg:text-2xl xl:text-3xl md:pt-2 text-shadow-xs text-shadow-current select-none ${rubik.className}`}>
                     — a passionate <span className="text-[#6600ff] font-semibold">Frontend Developer</span>

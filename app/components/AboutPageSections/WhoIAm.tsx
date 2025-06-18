@@ -2,11 +2,11 @@ import React from 'react'
 import { Container, Heading } from '../index'
 import { ParaContent } from '../HomePageSections'
 
-const AboutMe: React.FC = () => {
+const WhoIAm: React.FC = () => {
     return (
         <Container>
             <Heading>
-                ABOUT ME
+                WHO I AM
             </Heading>
 
             <ParaContent>
@@ -21,4 +21,4 @@ const AboutMe: React.FC = () => {
     )
 }
 
-export default AboutMe
+export default WhoIAm

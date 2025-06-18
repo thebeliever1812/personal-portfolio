@@ -28,7 +28,7 @@ const TechStack: React.FC = () => {
                     <SkillIcon skill='appwrite' className='text-rose-500' />
                 </section>
                 <CTAButton path='/skills'>
-                    See All Skills
+                    View All Skills
                 </CTAButton>
             </ParaContent>
         </Container>

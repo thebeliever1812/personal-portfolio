@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
     return (
         <div className={`footer w-full bg-black p-4 text-center text-sm text-gray-300 flex flex-col items-center justify-between gap-4 space-y-3 ${rubik.className}`}>
             <section className={`flex flex-col items-center justify-center lg:flex-row lg:justify-around w-full max-w-6xl px-4 ${rubik.className}`}>
-                <Link href="/" className=''><h2 className='text-white text-2xl font-semibold'>Basir Ahmad</h2></Link>
+                <h3 className='text-white text-2xl font-semibold'>Basir Ahmad</h3>
                 <ul className='flex gap-4 text-sm'>
                     <Link href="/about" className=''><li className='text-gray-400 hover:text-white duration-300 active:text-white'>About</li></Link>
                     <Link href="/skills" className=''><li className='text-gray-400 hover:text-white duration-300 active:text-white'>Skills</li></Link>
