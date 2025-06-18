@@ -1,6 +1,6 @@
 import React from 'react'
 import { Metadata } from 'next'
-import { ContactForm, Intro } from '../components/ContactPageSections'
+import { ContactForm, Intro, ShareButtons } from '../components/ContactPageSections'
 
 export const metadata: Metadata = {
     title: 'Contact',
@@ -22,6 +22,7 @@ const Contact: React.FC = () => {
         <div className='w-full min-h-screen'>
             <Intro />
             <ContactForm />
+            <ShareButtons />
         </div>
     )
 }
