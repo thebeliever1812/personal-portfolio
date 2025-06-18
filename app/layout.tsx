@@ -12,30 +12,40 @@ export const metadata: Metadata = {
   keywords: [
     'Basir Ahmad',
     'Frontend Developer',
-    'Next.js Developer',
-    'React Developer',
-    'TypeScript Developer',
-    'Tailwind CSS Developer',
-    'JavaScript Developer',
-    'Web Developer Portfolio',
+    'Next.js',
+    'React',
+    'TypeScript',
+    'Tailwind CSS',
+    'JavaScript',
+    'Web Developer',
     'Frontend Projects',
     'Web Development',
-    'Delhi Developer',
-    'Open Source Developer',
-    'Responsive Web Design',
+    'Delhi',
+    'Responsive UI',
     'Modern Web Technologies',
+    'User-friendly',
+    'BCA',
+    'Appwrite',
   ],
-  authors: [{ name: "Basir Ahmad", url: "" }],    // Add your portfolio link
+  authors: [{ name: "Basir Ahmad", url: "https://basir-ahmad-portfolio.vercel.app" }],    // Add your portfolio link
   creator: "Basir Ahmad",
-  // metadataBase: new URL(''),       // Add your portfolio link
+  metadataBase: new URL('https://basir-ahmad-portfolio.vercel.app'),       // Add your portfolio link
   openGraph: {
     title: 'Basir Ahmad | Frontend Developer',
     description:
       'Basir Ahmad is a frontend developer from Delhi, India, building responsive and user-friendly web applications using Next.js, React, TypeScript and Tailwind CSS.',
-    url: '',     // Add your portfolio link
+    url: 'https://basir-ahmad-portfolio.vercel.app',     // Add your portfolio link
     siteName: 'Basir Ahmad Portfolio',
     locale: 'en_IN',
     type: 'website',
+    images: [
+      {
+        url: 'https://basir-ahmad-portfolio.vercel.app/og-image.png', // Use full URL for best compatibility
+        width: 1200,
+        height: 630,
+        alt: 'Basir Ahmad Portfolio Preview',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
@@ -63,7 +73,7 @@ export default function RootLayout({
           {children}
         </main>
         <footer>
-          <Footer/>
+          <Footer />
         </footer>
       </body>
     </html>
