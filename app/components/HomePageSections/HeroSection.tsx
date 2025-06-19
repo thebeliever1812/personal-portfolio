@@ -17,7 +17,7 @@ const rubik = Rubik({
 
 const HeroSection: React.FC = () => {
     return (
-        <section className="hero-section w-full min-h-screen rounded-lg px-4 flex flex-col md:flex-row-reverse gap-5 lg:gap-10 justify-start md:justify-center py-20 md:py-0 items-center">
+        <section className="hero-section w-full min-h-screen px-4 flex flex-col md:flex-row-reverse gap-5 lg:gap-10 justify-start md:justify-center mt-2 md:mt-0 items-center">
             <div className='profile-image w-full max-w-xs md:max-w-sm lg:max-w-md xl:max-w-lg aspect-square relative'>
                 <Image
                     src="/profile_picture.png"
