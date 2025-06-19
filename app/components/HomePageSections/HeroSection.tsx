@@ -17,7 +17,7 @@ const rubik = Rubik({
 
 const HeroSection: React.FC = () => {
     return (
-        <section className="hero-section w-full min-h-screen px-4 flex flex-col md:flex-row-reverse gap-5 lg:gap-10 justify-start md:justify-center mt-2 md:mt-0 items-center">
+        <section className="hero-section w-full min-h-screen px-4 flex flex-col md:flex-row-reverse gap-5 lg:gap-10 justify-center md:justify-center items-center">
             <div className='profile-image w-full max-w-xs md:max-w-sm lg:max-w-md xl:max-w-lg aspect-square relative'>
                 <Image
                     src="/profile_picture.png"
@@ -35,7 +35,7 @@ const HeroSection: React.FC = () => {
                     — a passionate <span className="text-[#6600ff] font-semibold">Frontend Developer</span>
                 </h2>
                 <p className={`text-gray-400 pt-2 md:pt-4 text-center ${rubik.className}`}>I design and develop responsive, accessible, and user-friendly web interfaces using React, Next.js, and Tailwind CSS. My focus is on building high-performance, modern frontend experiences that are optimized for both usability and scalability across all devices.</p>
-                <div className={`pt-8 sm:pt-10 w-full ${rubik.className}`}>
+                <div className={`pt-4 sm:pt-7 w-full ${rubik.className}`}>
                     <ResumeButton />
                 </div>
             </section>
