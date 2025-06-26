@@ -4,6 +4,8 @@ import style from './ProjectSpotlight.module.css'
 import { ParaContent } from './index'
 import { Rubik } from 'next/font/google'
 import Image from 'next/image'
+import fadeIn from '../../variants/variants'
+import * as motion from 'motion/react-client'
 
 const rubik = Rubik({
     weight: ['400', '500', '600', '700'],
@@ -15,11 +17,25 @@ const ProjectSpotlight: React.FC = () => {
     return (
         <Container>
             <section className='space-y-4 md:space-y-5 lg:space-y-6 xl:space-y-8 flex flex-col justify-center items-center w-full max-w-7xl mx-auto px-4 md:px-6 lg:px-8 xl:px-10'>
-                <Heading>
-                    PROJECT SPOTLIGHT
-                </Heading>
+                <motion.div
+                    variants={fadeIn("down")}
+                    initial="hidden"
+                    whileInView="show"
+                    viewport={{ once: true, amount: 0.5 }}
+                >
+                    <Heading>
+                        PROJECT SPOTLIGHT
+                    </Heading>
+                </motion.div>
+
                 <div className='flex flex-col justify-center items-center'>
-                    <div className='bg-black w-full lg:min-w-[400px] max-w-2xl p-3 md:p-4 rounded-lg border-2 border-dotted border-[#5200cc] hover:scale-103 duration-500 hover:shadow-[0_0_20px_1px_#5200cc] space-y-2 md:space-y-0 flex md:gap-5 flex-col md:flex-row md:items-start'>
+                    <motion.div
+                        className='bg-black w-full lg:min-w-[400px] max-w-2xl p-3 md:p-4 rounded-lg border-2 border-dotted border-[#5200cc] hover:scale-103 duration-500 hover:shadow-[0_0_20px_1px_#5200cc] space-y-2 md:space-y-0 flex md:gap-5 flex-col md:flex-row md:items-start'
+                        variants={fadeIn("down", 0.2)}
+                        initial="hidden"
+                        whileInView="show"
+                        viewport={{ once: true, amount: 0.3 }}
+                    >
                         <section className={`name-description p-1 w-full space-y-2  ${rubik.className}`}>
                             <h3 className='text-xl font-semibold text-[#5200cc]'>
                                 Whisprr - Full Stack Blog Web App
@@ -49,11 +65,23 @@ const ProjectSpotlight: React.FC = () => {
                                 <span>React Router</span>
                             </div>
                         </section>
-                    </div>
+                    </motion.div>
 
-                    <div className='border h-8'></div>
+                    <motion.div
+                        className='border h-8'
+                        variants={fadeIn("down", 0.5)}
+                        initial="hidden"
+                        whileInView="show"
+                        viewport={{ once: true, amount: 1 }}
+                    ></motion.div>
 
-                    <div className={`bg-white w-full max-w-2xl p-1 rounded-lg border-2 border-dotted border-[#5200cc] hover:scale-103 duration-500 hover:shadow-[0_0_20px_1px_#5200cc] overflow-hidden relative group ${rubik.className}`}>
+                    <motion.div
+                        className={`bg-white w-full max-w-2xl p-1 rounded-lg border-2 border-dotted border-[#5200cc] hover:scale-103 duration-500 hover:shadow-[0_0_20px_1px_#5200cc] overflow-hidden relative group ${rubik.className}`}
+                        variants={fadeIn("down", 0.2)}
+                        initial="hidden"
+                        whileInView="show"
+                        viewport={{ once: true, amount: 0.3 }}
+                    >
                         <Image
                             src="/whisprr.png"
                             alt="whisprr project screenshot"
@@ -69,25 +97,38 @@ const ProjectSpotlight: React.FC = () => {
                                 Github Repo
                             </Button>
                         </div>
-                    </div>
+                    </motion.div>
                 </div>
 
-                <div className={`w-full flex gap-2 sm:gap-3 md:gap-4 lg:gap-5 justify-center xl:hidden ${rubik.className}`}>
+                <motion.div 
+                    className={`w-full flex gap-2 sm:gap-3 md:gap-4 lg:gap-5 justify-center xl:hidden ${rubik.className}`}
+                    variants={fadeIn("down", 0.2)}
+                    initial="hidden"
+                    whileInView="show"
+                    viewport={{ once: true, amount: 0.5 }}
+                >
                     <Button path={'https://whisprr-fawn.vercel.app'}>
                         Live Demo
                     </Button>
                     <Button path={'https://github.com/thebeliever1812/Whisprr---A-blog-web-app'}>
                         Github Repo
                     </Button>
-                </div>
+                </motion.div>
 
-                <ParaContent>
-                    <p className='text-gray-400'>I&apos;ve also built several smaller web apps while learning core concepts, such as a weather dashboard, to-do list app, and real-time paste board — each focused on responsive UI and clean code.</p>
+                <motion.div
+                    variants={fadeIn("down", 0.2)}
+                    initial="hidden"
+                    whileInView="show"
+                    viewport={{ once: true, amount: 0.5 }}
+                >
+                    <ParaContent>
+                        <p className='text-gray-400'>I&apos;ve also built several smaller web apps while learning core concepts, such as a weather dashboard, to-do list app, and real-time paste board — each focused on responsive UI and clean code.</p>
 
-                    <CTAButton path='/projects'>
-                        See All Projects
-                    </CTAButton>
-                </ParaContent>
+                        <CTAButton path='/projects'>
+                            See All Projects
+                        </CTAButton>
+                    </ParaContent>
+                </motion.div>
             </section>
         </Container>
     )
