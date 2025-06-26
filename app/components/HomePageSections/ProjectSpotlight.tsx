@@ -17,16 +17,9 @@ const ProjectSpotlight: React.FC = () => {
     return (
         <Container>
             <section className='space-y-4 md:space-y-5 lg:space-y-6 xl:space-y-8 flex flex-col justify-center items-center w-full max-w-7xl mx-auto px-4 md:px-6 lg:px-8 xl:px-10'>
-                <motion.div
-                    variants={fadeIn("down")}
-                    initial="hidden"
-                    whileInView="show"
-                    viewport={{ once: true, amount: 0.5 }}
-                >
-                    <Heading>
-                        PROJECT SPOTLIGHT
-                    </Heading>
-                </motion.div>
+                <Heading>
+                    PROJECT SPOTLIGHT
+                </Heading>
 
                 <div className='flex flex-col justify-center items-center'>
                     <motion.div
@@ -100,7 +93,7 @@ const ProjectSpotlight: React.FC = () => {
                     </motion.div>
                 </div>
 
-                <motion.div 
+                <motion.div
                     className={`w-full flex gap-2 sm:gap-3 md:gap-4 lg:gap-5 justify-center xl:hidden ${rubik.className}`}
                     variants={fadeIn("down", 0.2)}
                     initial="hidden"
@@ -115,20 +108,13 @@ const ProjectSpotlight: React.FC = () => {
                     </Button>
                 </motion.div>
 
-                <motion.div
-                    variants={fadeIn("down", 0.2)}
-                    initial="hidden"
-                    whileInView="show"
-                    viewport={{ once: true, amount: 0.5 }}
-                >
-                    <ParaContent>
-                        <p className='text-gray-400'>I&apos;ve also built several smaller web apps while learning core concepts, such as a weather dashboard, to-do list app, and real-time paste board — each focused on responsive UI and clean code.</p>
+                <ParaContent>
+                    <p className='text-gray-400'>I&apos;ve also built several smaller web apps while learning core concepts, such as a weather dashboard, to-do list app, and real-time paste board — each focused on responsive UI and clean code.</p>
 
-                        <CTAButton path='/projects'>
-                            See All Projects
-                        </CTAButton>
-                    </ParaContent>
-                </motion.div>
+                    <CTAButton path='/projects'>
+                        See All Projects
+                    </CTAButton>
+                </ParaContent>
             </section>
         </Container>
     )

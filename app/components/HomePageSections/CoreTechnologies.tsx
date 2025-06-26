@@ -16,31 +16,17 @@ const CoreTechnologies: React.FC = () => {
                 whileInView='view'
                 viewport={{ once: true, amount: 0.3 }}
             >
-                <motion.div
-                    variants={fadeIn('down')}
-                    initial='hidden'
-                    whileInView='show'
-                    viewport={{ once: true, amount: 0.5 }}
-                >
-                    <Heading>
-                        CORE TECHNOLOGIES
-                    </Heading>
-                </motion.div>
+                <Heading>
+                    CORE TECHNOLOGIES
+                </Heading>
 
-                <motion.div
-                    variants={fadeIn('down', 0.2)}
-                    initial='hidden'
-                    whileInView='show'
-                    viewport={{ once: true, amount: 0.5 }}
-                >
-                    <ParaContent>
-                        <SkillGroup />
+                <ParaContent>
+                    <SkillGroup />
 
-                        <CTAButton path='/skills'>
-                            See All Skills
-                        </CTAButton>
-                    </ParaContent>
-                </motion.div>
+                    <CTAButton path='/skills'>
+                        See All Skills
+                    </CTAButton>
+                </ParaContent>
             </motion.section>
         </Container>
     )
