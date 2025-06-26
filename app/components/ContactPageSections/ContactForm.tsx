@@ -5,6 +5,8 @@ import { Container } from '../index';
 import { Input } from './index';
 import { Roboto } from 'next/font/google';
 import { toast, ToastContainer } from 'react-toastify';
+import fadeIn from '@/app/variants/variants';
+import { motion } from 'motion/react'
 
 const roboto = Roboto({
     variable: "--font-roboto",
@@ -26,7 +28,13 @@ const ContactForm: React.FC = () => {
 
     return (
         <Container>
-            <div className={`w-full max-w-2xl bg-black/15 rounded-lg px-4 py-10 md:p-10 shadow-md ${roboto.className}`}>
+            <motion.div
+                className={`w-full max-w-2xl bg-black/15 rounded-lg px-4 py-10 md:p-10 shadow-md ${roboto.className}`}
+                variants={fadeIn()}
+                initial={{ opacity: 0 }}
+                whileInView="view"
+                viewport={{ once: true, amount: 0.3 }}
+            >
                 <form
                     ref={formRef}
                     action="https://formspree.io/f/xrbklzqe"
@@ -55,7 +63,7 @@ const ContactForm: React.FC = () => {
                         {state.submitting ? 'Sending' : 'Send Message'}
                     </button>
                 </form>
-            </div>
+            </motion.div>
             <ToastContainer
                 position="top-center"
                 autoClose={5000}

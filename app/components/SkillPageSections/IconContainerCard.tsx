@@ -1,5 +1,7 @@
 import React from 'react'
 import { Rubik } from 'next/font/google';
+import fadeIn from '../../variants/variants'
+import * as motion from 'motion/react-client'
 
 const rubik = Rubik({
     subsets: ['latin'],
@@ -10,11 +12,18 @@ const rubik = Rubik({
 interface IconContainerCardProps {
     heading: string;
     children: React.ReactNode;
+    direction?: 'left' | 'right';
 }
 
-const IconContainerCard: React.FC<IconContainerCardProps> = ({ heading, children }) => {
+const IconContainerCard: React.FC<IconContainerCardProps> = ({ heading, children, direction }) => {
     return (
-        <div className={`flex flex-col w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl gap-4 items-center border border-gray-700 px-5 py-8 rounded-lg bg-black/50 shadow-[0_0_20px_0_#290066] ${rubik.className}`}>
+        <motion.div 
+            className={`flex flex-col w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl gap-4 items-center border border-gray-700 px-5 py-8 rounded-lg bg-black/50 shadow-[0_0_20px_0_#290066] will-change-transform ${rubik.className}`}
+            variants={fadeIn(direction)}
+            initial='hidden'
+            whileInView="show"
+            viewport={{ once: true, amount: 0.5 }}
+        >
             <h3 className='text-2xl font-semibold'>
                 {heading}
             </h3>
@@ -25,7 +34,7 @@ const IconContainerCard: React.FC<IconContainerCardProps> = ({ heading, children
                     </li>
                 ))}
             </ul>
-        </div>
+        </motion.div>
     )
 }
 

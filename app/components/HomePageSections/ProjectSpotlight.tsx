@@ -24,7 +24,7 @@ const ProjectSpotlight: React.FC = () => {
                 <div className='flex flex-col justify-center items-center'>
                     <motion.div
                         className='bg-black w-full lg:min-w-[400px] max-w-2xl p-3 md:p-4 rounded-lg border-2 border-dotted border-[#5200cc] hover:scale-103 duration-500 hover:shadow-[0_0_20px_1px_#5200cc] space-y-2 md:space-y-0 flex md:gap-5 flex-col md:flex-row md:items-start'
-                        variants={fadeIn("down", 0.2)}
+                        variants={fadeIn("right")}
                         initial="hidden"
                         whileInView="show"
                         viewport={{ once: true, amount: 0.3 }}
@@ -62,7 +62,7 @@ const ProjectSpotlight: React.FC = () => {
 
                     <motion.div
                         className='border h-8'
-                        variants={fadeIn("down", 0.5)}
+                        variants={fadeIn("down")}
                         initial="hidden"
                         whileInView="show"
                         viewport={{ once: true, amount: 1 }}
@@ -70,7 +70,7 @@ const ProjectSpotlight: React.FC = () => {
 
                     <motion.div
                         className={`bg-white w-full max-w-2xl p-1 rounded-lg border-2 border-dotted border-[#5200cc] hover:scale-103 duration-500 hover:shadow-[0_0_20px_1px_#5200cc] overflow-hidden relative group ${rubik.className}`}
-                        variants={fadeIn("down", 0.2)}
+                        variants={fadeIn("left")}
                         initial="hidden"
                         whileInView="show"
                         viewport={{ once: true, amount: 0.3 }}
