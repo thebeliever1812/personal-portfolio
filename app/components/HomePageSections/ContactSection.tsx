@@ -1,8 +1,6 @@
 import React from 'react'
 import { Container, CTAButton, Heading } from '../index'
 import { ParaContent } from './index'
-import fadeIn from '../../variants/variants'
-import * as motion from 'motion/react-client'
 
 const ContactSection: React.FC = () => {
     return (
