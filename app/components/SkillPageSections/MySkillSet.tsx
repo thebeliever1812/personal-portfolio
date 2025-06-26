@@ -2,7 +2,6 @@ import React from 'react'
 import { Container, Heading, SkillIcon } from '../index'
 import { ParaContent } from '../HomePageSections'
 import { ExploringNext, IconContainerCard, MyWorkPrinciples } from './index'
-import { div } from 'motion/react-client';
 
 interface Skill {
     skill: string;
