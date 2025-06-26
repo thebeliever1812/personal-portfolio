@@ -1,5 +1,3 @@
-import { tr, view } from "motion/react-client";
-
 const fadeIn = (direction: string = "", delay: number = 0) => {
 	return {
 		hidden: {
