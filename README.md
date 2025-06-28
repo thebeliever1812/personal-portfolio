@@ -26,6 +26,7 @@ View the live version here:
 - **Tailwind CSS** for streamlined styling and layout
 - **Component‑based structure**, including reusable NavBar, Hero, Skills, Projects, and Contact sections
 - **Easy deployment** via Vercel
+- **Framer Motion animations** for smooth page transitions and interactive UI effects
 
 ---
 
@@ -36,6 +37,7 @@ View the live version here:
 - **Version Control**: Git & GitHub
 - **Deployment**: Vercel
 - **Other Tools**: ESLint, Prettier
+- **Animations**: Framer Motion
 
 ---
 
@@ -103,6 +105,7 @@ Feel free to reach out:
 - ☁️ Deployed seamlessly via **Vercel**
 - 🧱 Clean code structure: `components/`, `config/`, `styles/`
 - 📫 Includes **contact information** and **contribution guidelines**
+- 🎞️ Enhanced with **Framer Motion** for elegant transitions and animation
 
 ---
 
