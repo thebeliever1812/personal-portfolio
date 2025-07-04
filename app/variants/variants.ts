@@ -1,8 +1,12 @@
-const fadeIn = (direction: string = "", delay: number = 0) => {
+const fadeIn = (
+	direction: string = "",
+	delay: number = 0,
+	type: "tween" | "spring" = "tween"
+) => {
 	return {
 		hidden: {
 			opacity: 0,
-			y: direction === "down" ? 20 : 0,
+			y: direction === "up" ? -20 : direction === "down" ? 20 : 0,
 			x: direction === "left" ? -40 : direction === "right" ? 40 : 0,
 		},
 		show: {
@@ -13,7 +17,7 @@ const fadeIn = (direction: string = "", delay: number = 0) => {
 				duration: 0.5,
 				delay: delay,
 				ease: "easeInOut" as const,
-				type: "tween" as const,
+				type: type,
 			},
 		},
 		view: {
