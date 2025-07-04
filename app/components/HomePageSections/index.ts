@@ -5,6 +5,7 @@ import ParaContent from "./ParaContent";
 import CoreTechnologies from "./CoreTechnologies";
 import SkillGroup from "./SkillGroup";
 import ContactSection from "./ContactSection";
+import ProfilePicture from "./ProfilePicture";
 
 export {
 	HeroSection,
@@ -14,4 +15,5 @@ export {
 	CoreTechnologies,
 	SkillGroup,
 	ContactSection,
+	ProfilePicture,
 };

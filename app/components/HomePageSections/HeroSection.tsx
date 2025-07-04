@@ -1,8 +1,8 @@
 import React from 'react'
 import { ResumeButton } from "../index";
 import { Libre_Baskerville, Rubik } from 'next/font/google'
-import Image from 'next/image';
 import styles from './HeroSection.module.css'
+import {ProfilePicture} from './index';
 
 const heroFont = Libre_Baskerville({
     weight: ['400', '700'],
@@ -17,18 +17,10 @@ const rubik = Rubik({
 })
 
 const HeroSection: React.FC = () => {
-    const imageUrl: string | undefined = '/profile_picture.png';
-
     return (
         <section className="hero-section w-full min-h-screen px-4 flex flex-col md:flex-row-reverse gap-5 lg:gap-10 justify-center md:justify-center items-center">
             <div className={`profile-image w-full max-w-xs md:max-w-sm lg:max-w-md xl:max-w-lg aspect-square relative ${styles['profile-up-down']}`}>
-                <Image
-                    src={imageUrl ? imageUrl : '/default_profile_photo.jpg'}
-                    alt="Basir Ahmad smiling in a professional headshot, wearing a neutral shirt, set against a simple background. The mood is friendly and approachable. No visible text in the image."
-                    fill
-                    className="mx-auto sm:m-0 rounded-full shadow-[5px_5px_40px_0_#330080] select-none"
-                    priority // if this image is above the fold, use priority instead of loading="lazy"
-                />
+                <ProfilePicture />
             </div>
             <section className='flex flex-col items-center justify-center text-center gap-2 md:gap-4 w-full max-w-3xl'>
                 <h1 className={`text-3xl lg:text-4xl xl:text-6xl font-bold text-shadow-sm text-shadow-current select-none ${heroFont.className}`}>
