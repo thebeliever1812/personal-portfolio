@@ -2,7 +2,7 @@ import React from 'react'
 import { ResumeButton } from "../index";
 import { Libre_Baskerville, Rubik } from 'next/font/google'
 import styles from './HeroSection.module.css'
-import {ProfilePicture} from './index';
+import { ProfilePicture, TypeAnimationComponent } from './index';
 
 const heroFont = Libre_Baskerville({
     weight: ['400', '700'],
@@ -27,7 +27,9 @@ const HeroSection: React.FC = () => {
                     Hii, I&apos;m <i>Basir Ahmad</i>
                 </h1>
                 <h2 className={`text-xl lg:text-2xl xl:text-3xl md:pt-2 text-shadow-xs text-shadow-current select-none ${rubik.className}`}>
-                    — a passionate <span className="text-[#6600ff] font-semibold">Frontend Developer</span>
+                    — a passionate <span className="text-[#6600ff] font-semibold">
+                        <TypeAnimationComponent />
+                    </span>
                 </h2>
                 <p className={`text-gray-400 pt-2 md:pt-4 text-center ${rubik.className}`}>I design and develop responsive, accessible, and user-friendly web interfaces using React, Next.js, and Tailwind CSS. My focus is on building high-performance, modern frontend experiences that are optimized for both usability and scalability across all devices.</p>
                 <div className={`pt-4 sm:pt-7 w-full ${rubik.className}`}>

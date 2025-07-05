@@ -6,6 +6,7 @@ import CoreTechnologies from "./CoreTechnologies";
 import SkillGroup from "./SkillGroup";
 import ContactSection from "./ContactSection";
 import ProfilePicture from "./ProfilePicture";
+import TypeAnimationComponent from "./TypeAnimationComponent";
 
 export {
 	HeroSection,
@@ -16,4 +17,5 @@ export {
 	SkillGroup,
 	ContactSection,
 	ProfilePicture,
+	TypeAnimationComponent,
 };
