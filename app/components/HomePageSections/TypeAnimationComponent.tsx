@@ -9,7 +9,7 @@ const TypeAnimationComponent: React.FC = () => {
             sequence={[
                 500,
                 'Frontend Developer',
-                1000,
+                2000,
                 'UI/UX Developer',
                 1000,
                 'Web Developer',
