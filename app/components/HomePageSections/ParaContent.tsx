@@ -17,7 +17,7 @@ const ParaContent: React.FC<Props> = ({ children }) => {
     return (
         <motion.div
             className='w-full flex justify-center'
-            variants={fadeIn("down", 0.2)}
+            variants={fadeIn("down", 0)}
             initial="hidden"
             whileInView="show"
             viewport={{ once: true, amount: 0.3 }}
