@@ -21,7 +21,7 @@ const Navbar: React.FC = () => {
                     <Link href={'/'}><strong>Basir Ahmad</strong></Link>
                 </h2>
 
-                <button className='menu-btn-open flex justify-center items-center text-white text-3xl sm:hidden cursor-pointer active:opacity-60 rounded-full p-1' onClick={() => setShowMobileNavItems(prev => !prev)}>
+                <button className='menu-btn-open flex justify-center items-center text-white text-3xl sm:hidden cursor-pointer active:opacity-60 rounded-full p-1' onClick={() => setShowMobileNavItems(prev => !prev)} aria-label='Open menu'>
                     <TbMenuDeep />
                 </button>
 
@@ -36,11 +36,11 @@ const Navbar: React.FC = () => {
                 <div className={`fixed w-full h-screen bg-black/40 backdrop-blur-[2px] z-50 ${showMobileNavItems ? 'block': 'hidden'}`} onClick={() => setShowMobileNavItems(false)}>
                 </div>
                 <div className={`fixed bg-black w-full max-w-80 h-screen right-0 z-[60] px-6 py-3 overflow-y-auto transition-transform duration-500 ease-out  ${showMobileNavItems ? 'translate-x-0' : "translate-x-full"}`}>
-                    <button className='menu-btn-close w-9 h-9 text-3xl cursor-pointer hover:bg-[#181818] flex justify-center items-center rounded-full' onClick={() => setShowMobileNavItems(false)}>
+                    <button className='menu-btn-close w-9 h-9 text-3xl cursor-pointer hover:bg-[#181818] flex justify-center items-center rounded-full' onClick={() => setShowMobileNavItems(false)} aria-label='Close menu'>
                         <IoClose />
                     </button>
 
-                    <NavItems className='text-xl hover:bg-[#101010] duration-200 hover:ease-in-out p-2 rounded-lg active:bg-[#6600ff] active:text-white' onClick={() => setShowMobileNavItems(false)} />
+                    <NavItems className='text-xl hover:bg-[#101010] duration-200 hover:ease-in-out p-2 rounded-lg active:bg-[#BB8FFF] active:text-white' onClick={() => setShowMobileNavItems(false)} />
                 </div>
             </div>
         </div>
