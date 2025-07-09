@@ -15,10 +15,26 @@ const Footer: React.FC = () => {
             <section className={`flex flex-col items-center justify-center lg:flex-row lg:justify-around w-full max-w-6xl px-4 ${rubik.className}`}>
                 <h3 className='text-white text-2xl font-semibold'>Basir Ahmad</h3>
                 <ul className='flex gap-4 text-sm'>
-                    <Link href="/about" className=''><li className='text-gray-400 hover:text-white duration-300 active:text-white'>About</li></Link>
-                    <Link href="/skills" className=''><li className='text-gray-400 hover:text-white duration-300 active:text-white'>Skills</li></Link>
-                    <Link href="/projects" className=''><li className='text-gray-400 hover:text-white duration-300 active:text-white'>Projects</li></Link>
-                    <Link href="/contact" className=''><li className='text-gray-400 hover:text-white duration-300 active:text-white'>Contact</li></Link>
+                    <li>
+                        <Link href="/about" className='text-gray-400 hover:text-white active:text-white duration-300'>
+                            About
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href="/skills" className='text-gray-400 hover:text-white active:text-white duration-300'>
+                            Skills
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href="/projects" className='text-gray-400 hover:text-white active:text-white duration-300'>
+                            Projects
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href="/contact" className='text-gray-400 hover:text-white active:text-white duration-300'>
+                            Contact
+                        </Link>
+                    </li>
                 </ul>
             </section>
 
