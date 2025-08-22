@@ -2,7 +2,7 @@ import React from 'react'
 
 const HighlightText: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     return (
-        <span className='font-semibold text-white'>
+        <span className='font-medium text-white'>
             {children}
         </span>
     )
