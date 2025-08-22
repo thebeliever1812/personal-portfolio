@@ -1,5 +1,5 @@
 import React from 'react'
-import { CTAButton, Heading, Container } from '../index'
+import { CTAButton, Heading, Container, HighlightText } from '../index'
 import { ParaContent } from './index'
 
 const AboutMeSection: React.FC = () => {
@@ -11,8 +11,8 @@ const AboutMeSection: React.FC = () => {
                 </Heading>
 
                 <ParaContent>
-                    <p className="text-gray-400 leading-relaxed tracking-wide">
-                        I&apos;m <span className="font-semibold text-blue-600">Basir Ahmad</span>, a frontend developer with a strong foundation in <span className="font-medium text-white">React, Next.js,</span> and <span className="font-medium text-white">Tailwind CSS</span>. I recently completed my <span className="font-medium text-white">BCA</span> and have built several personal projects, including a full-featured blog app using React and Appwrite. I focus on creating clean, responsive UIs and continuously improving my skills through hands-on development.
+                    <p className='text-gray-400 leading-relaxed tracking-wide'>
+                        I&apos;m <HighlightText>Basir Ahmad</HighlightText>, a <HighlightText>full-stack developer</HighlightText> with hands-on experience in the <HighlightText>MERN stack</HighlightText> and <HighlightText>Next.js</HighlightText>. I specialize in building performant, SEO-friendly applications with clean architecture, TypeScript/JavaScript, and responsive UI using <HighlightText>Tailwind CSS</HighlightText> and <HighlightText>Bootstrap</HighlightText>. I also work with <HighlightText>NextAuth.js</HighlightText> for authentication, <HighlightText>Zod</HighlightText> for schema validation, and <HighlightText>Git/GitHub</HighlightText> for version control.
                     </p>
 
                     <div className="pt-4">

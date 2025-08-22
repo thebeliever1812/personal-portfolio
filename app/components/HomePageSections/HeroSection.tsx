@@ -40,7 +40,9 @@ const HeroSection: React.FC = () => {
                         <TypeAnimationComponent />
                     </span>
                 </h2>
-                <p className={`text-gray-400 pt-2 md:pt-4 text-center ${rubik.className}`}>I design and develop responsive, accessible, and user-friendly web interfaces using React, Next.js, and Tailwind CSS. My focus is on building high-performance, modern frontend experiences that are optimized for both usability and scalability across all devices.</p>
+                <p className={`text-gray-400 pt-2 md:pt-4 text-center ${rubik.className}`}>
+                    I design and develop full&#45;stack web applications with Next.js, React, Tailwind CSS, and the MERN stack—delivering responsive, accessible, and user&#45;friendly experiences.
+                </p>
                 <div className={`pt-4 sm:pt-7 w-full ${rubik.className}`}>
                     <ResumeButton />
                 </div>

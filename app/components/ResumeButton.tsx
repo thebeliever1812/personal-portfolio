@@ -4,9 +4,10 @@ import React from 'react'
 const ResumeButton: React.FC = () => {
     return (
         <a
-            href="/Basir_Ahmad_Frontend_Resume.pdf"
+            href="/Basir Ahmad_Fullstack_Resume.pdf"
             target="_blank"
-            rel="noopener noreferrer">
+            rel="noopener noreferrer"
+        >
             <button
                 className="cursor-pointer flex justify-between items-center bg-[#5200cc] px-4 py-2.5 rounded-full text-white hover:bg-[#3d0099] hover:scale-105 duration-300 hover:ring-1 gap-3 shadow-[0_0_20px_0_#5200cc] hover:shadow-[0_0_30px_2px_#3d0099] active:shadow-[0_0_30px_2px_#3d0099] mx-auto font-semibold"
             >

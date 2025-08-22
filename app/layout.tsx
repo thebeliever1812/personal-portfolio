@@ -69,7 +69,7 @@ export default function RootLayout({
         <header>
           <Header />
         </header>
-        <main className="grow pt-16">
+        <main className="grow pt-5 md:pt-16">
           {children}
         </main>
         <footer>

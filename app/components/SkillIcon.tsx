@@ -15,7 +15,10 @@ import {
     FaBootstrap,
     VscVscode,
     IoLogoVercel,
-    FaChrome
+    FaChrome,
+    SiMongodb,
+    FaNodeJs,
+    SiExpress
 } from '../components/icons'
 import { motion, useScroll, useTransform } from 'motion/react'
 
@@ -38,6 +41,7 @@ const SkillIcon: React.FC<SkillIconProps> = ({ skill, className, classNameHomeBo
     });
 
     const opacity = useTransform(scrollYProgress, [0, 0.5, 1], [0, 0.5, 1]);
+
     const skills: Skills = {
         HTML: <FaHtml5 />,
         CSS: <FaCss3Alt />,
@@ -53,7 +57,10 @@ const SkillIcon: React.FC<SkillIconProps> = ({ skill, className, classNameHomeBo
         Bootstrap: <FaBootstrap />,
         VScode: <VscVscode />,
         Vercel: <IoLogoVercel />,
-        DevTools: <FaChrome />
+        DevTools: <FaChrome />,
+        MongoDB: <SiMongodb />,
+        Nodejs: <FaNodeJs />,
+        Express: <SiExpress />
     }
 
     const filteredSkill = Object.entries(skills).filter(([key]) => key.toLowerCase() === skill.toLowerCase())

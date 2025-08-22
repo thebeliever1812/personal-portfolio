@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, CTAButton, Heading } from '../index'
+import { Container, CTAButton, Heading, HighlightText } from '../index'
 import { ParaContent } from './index'
 
 const ContactSection: React.FC = () => {
@@ -12,7 +12,7 @@ const ContactSection: React.FC = () => {
 
                 <ParaContent>
                     <p className="text-gray-400 text-lg leading-relaxed">
-                        I&apos;m currently open to <span className="text-white">full-time opportunities</span> as a <span className="text-blue-600 font-semibold">Frontend Developer</span>, where I can contribute to building modern, responsive, and engaging user interfaces.
+                        Actively seeking <HighlightText>Full-stack</HighlightText> or <HighlightText>Next.js developer</HighlightText> opportunities where I can craft seamless user experiences and robust backend systems.
                     </p>
 
                     <p className="text-gray-400 text-lg leading-relaxed">

@@ -8,8 +8,16 @@ const TypeAnimationComponent: React.FC = () => {
             preRenderFirstString={true}
             sequence={[
                 500,
-                'Frontend Developer',
+                'Fullstack Developer',
                 2000,
+                'MERN Stack Developer',
+                1000,
+                'Next.js Developer',
+                1000,
+                'Frontend Developer',
+                1000,
+                'Backend Developer',
+                1000,
                 'UI/UX Developer',
                 1000,
                 'Web Developer',

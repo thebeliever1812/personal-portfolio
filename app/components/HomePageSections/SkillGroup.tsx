@@ -9,13 +9,12 @@ interface Skills {
 
 const SkillGroup: React.FC = () => {
     const skills: Skills[] = [
-        { skill: 'HTML', className: 'text-orange-500' },
-        { skill: 'CSS', className: 'text-blue-500' },
         { skill: 'JavaScript', className: 'text-yellow-400' },
-        { skill: 'TypeScript', className: 'text-blue-600' },
         { skill: 'React', className: 'text-cyan-500' },
         { skill: 'Nextjs', className: 'text-white lg:text-black' },
-        { skill: 'Tailwind', className: 'text-sky-500' },
+        { skill: 'MongoDB', className: 'text-green-600' },
+        { skill: 'Express', className: 'text-white lg:text-black' },
+        { skill: 'Nodejs', className: 'text-green-600' },
     ]
 
     return (

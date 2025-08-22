@@ -24,17 +24,17 @@ const ProjectSpotlight: React.FC = () => {
                 <div className='flex flex-col justify-center items-center'>
                     <motion.div
                         className='bg-black w-full lg:min-w-[400px] max-w-2xl p-3 md:p-4 rounded-lg border-2 border-dotted border-[#5200cc] hover:scale-103 duration-500 hover:shadow-[0_0_20px_1px_#5200cc] space-y-2 md:space-y-0 flex md:gap-5 flex-col md:flex-row md:items-start'
-                        variants={fadeIn("right", 0, "spring")}
+                        variants={fadeIn("down", 0, "tween")}
                         initial="hidden"
                         whileInView="show"
                         viewport={{ once: true, amount: 0.3 }}
                     >
                         <section className={`name-description p-1 w-full space-y-2  ${rubik.className}`}>
-                            <h3 className='text-xl font-semibold text-[#5200cc]'>
-                                Whisprr - Full Stack Blog Web App
+                            <h3 className='text-xl font-semibold text-[#AE7AFF]'>
+                                Ghost Message - Secure Anonymous Messaging Platform
                             </h3>
                             <p className='text-gray-400'>
-                                A full-featured blogging platform built with React, Appwrite, and Tailwind CSS. Includes user authentication, image uploads, protected routes, and dynamic post management with a responsive grid layout.
+                                Ghost Message is a secure, anonymous messaging platform that allows users to send and receive any type of messages without revealing their identity. It offers a clean, modern UI, AI-powered message suggestions, and a smooth authentication flow — all built using a full-stack Next.js approach.
                             </p>
                         </section>
 
@@ -43,19 +43,31 @@ const ProjectSpotlight: React.FC = () => {
                                 <span>React</span>
                             </div>
                             <div className={style.techStyle}>
-                                <span>JavaScript</span>
-                            </div>
-                            <div className={style.techStyle}>
-                                <span>Appwrite&#40;BaaS&#41;</span>
+                                <span>Next.js</span>
                             </div>
                             <div className={style.techStyle}>
                                 <span>Tailwind CSS</span>
                             </div>
                             <div className={style.techStyle}>
-                                <span>Redux</span>
+                                <span>Node.js &#40;via Next.js API routes&#41;</span>
                             </div>
                             <div className={style.techStyle}>
-                                <span>React Router</span>
+                                <span>Shadcn UI</span>
+                            </div>
+                            <div className={style.techStyle}>
+                                <span>MongoDB</span>
+                            </div>
+                            <div className={style.techStyle}>
+                                <span>NextAuth.js</span>
+                            </div>
+                            <div className={style.techStyle}>
+                                <span>Gemini AI API</span>
+                            </div>
+                            <div className={style.techStyle}>
+                                <span>Zod</span>
+                            </div>
+                            <div className={style.techStyle}>
+                                <span>React Hook Form</span>
                             </div>
                         </section>
                     </motion.div>
@@ -70,23 +82,23 @@ const ProjectSpotlight: React.FC = () => {
 
                     <motion.div
                         className={`bg-white w-full max-w-2xl p-1 rounded-lg border-2 border-dotted border-[#5200cc] hover:scale-103 duration-500 hover:shadow-[0_0_20px_1px_#5200cc] overflow-hidden relative group ${rubik.className}`}
-                        variants={fadeIn("left", 0, "spring")}
+                        variants={fadeIn("down", 0, "tween")}
                         initial="hidden"
                         whileInView="show"
                         viewport={{ once: true, amount: 0.3 }}
                     >
                         <Image
-                            src="/whisprr.png"
+                            src="/ghost_message.png"
                             alt="whisprr project screenshot"
                             width={800} // adjust as per actual image size or layout needs
                             height={500} // adjust as per actual image size or layout needs
                             className="w-full h-full object-cover object-center"
                         />
                         <div className='absolute w-2/3 h-full bg-[#5200cc]/80 right-0 top-0 translate-x-[100%] group-hover:translate-x-0 duration-500 p-2 xl:flex gap-2 justify-evenly items-center hidden'>
-                            <Button path={'https://whisprr-fawn.vercel.app'}>
+                            <Button path={'https://ghost-message-eta.vercel.app'}>
                                 Live Demo
                             </Button>
-                            <Button path={'https://github.com/thebeliever1812/Whisprr---A-blog-web-app'}>
+                            <Button path={'https://github.com/thebeliever1812/ghost-message'}>
                                 Github Repo
                             </Button>
                         </div>
@@ -100,17 +112,16 @@ const ProjectSpotlight: React.FC = () => {
                     whileInView="show"
                     viewport={{ once: true, amount: 0.5 }}
                 >
-                    <Button path={'https://whisprr-fawn.vercel.app'}>
+                    <Button path={'https://ghost-message-eta.vercel.app'}>
                         Live Demo
                     </Button>
-                    <Button path={'https://github.com/thebeliever1812/Whisprr---A-blog-web-app'}>
+                    <Button path={'https://github.com/thebeliever1812/ghost-message'}>
                         Github Repo
                     </Button>
                 </motion.div>
 
                 <ParaContent>
-                    <p className='text-gray-400'>I&apos;ve also built several smaller web apps while learning core concepts, such as a weather dashboard, to-do list app, and real-time paste board — each focused on responsive UI and clean code.</p>
-
+                    <p className='text-gray-400'>I&apos;ve also builed more web apps while learning core concepts, such as a Whisprr - A full stack web app, weather dashboard, to-do list app, and real-time paste board — each focused on responsive UI and clean code.</p>
                     <CTAButton path='/projects'>
                         See All Projects
                     </CTAButton>
