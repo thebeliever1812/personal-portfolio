@@ -14,9 +14,9 @@ const TechStack: React.FC = () => {
         { skill: 'React', className: 'text-cyan-500' },
         { skill: 'Nextjs', className: 'text-white' },
         { skill: 'Tailwind', className: 'text-sky-500' },
-        { skill: 'GitHub', className: 'text-white' },
-        { skill: 'Redux', className: 'text-violet-700' },
-        { skill: 'Appwrite', className: 'text-rose-500' }
+        { skill: 'Express', className: 'text-white' },
+        { skill: 'MongoDB', className: 'text-green-600' },
+        { skill: 'Nodejs', className: 'text-green-500' }
     ]
     return (
         <Container>
@@ -25,7 +25,7 @@ const TechStack: React.FC = () => {
             </Heading>
             <ParaContent>
                 <p className='text-gray-400'>
-                    I work primarily with modern frontend technologies that help me build fast, maintainable, and scalable web applications.
+                    I work across the full stack with Next.js and the MERN ecosystem—leveraging TypeScript, React, Node.js, Express, MongoDB, and Tailwind CSS—to build performant, maintainable, and scalable web applications with responsive UIs and robust APIs.
                 </p>
             </ParaContent>
             <ParaContent>
@@ -33,7 +33,7 @@ const TechStack: React.FC = () => {
                     My core tech stack includes:
                 </h3>
                 <section>
-                    <ul className='grid grid-cols-2 md:grid-cols-3 gap-5'>
+                    <ul className='grid grid-cols-2 md:grid-cols-3 gap-8 px-5'>
                         {
                             skills.map((skill, index) => (
                                 <li key={index}>
