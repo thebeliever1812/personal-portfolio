@@ -3,7 +3,6 @@ import { ResumeButton } from "../index";
 import { Libre_Baskerville, Rubik } from 'next/font/google'
 import styles from './HeroSection.module.css'
 import { DisplayPicture, TypeAnimationComponent } from './index';
-import Image from 'next/image';
 
 const heroFont = Libre_Baskerville({
     weight: ['400', '700'],
