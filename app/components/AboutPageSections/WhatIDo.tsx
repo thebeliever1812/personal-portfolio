@@ -11,7 +11,7 @@ const WhatIDo: React.FC = () => {
 
             <ParaContent>
                 <p className="text-gray-400 text-base leading-relaxed">
-                    I design and develop end-to-end web applications using <HighlightText>Next.js, React,</HighlightText> and the <HighlightText>MERN stack</HighlightText> combining modern frontend engineering with robust APIs and databases. My goal isn't just to make things work — it's to make them work <span className="italic text-white">beautifully</span> and <span className="italic text-white">efficiently</span> at scale.
+                    I design and develop end-to-end web applications using <HighlightText>Next.js, React,</HighlightText> and the <HighlightText>MERN stack</HighlightText> combining modern frontend engineering with robust APIs and databases. My goal isn&apos;t just to make things work — it&apos;s to make them work <span className="italic text-white">beautifully</span> and <span className="italic text-white">efficiently</span> at scale.
                 </p>
                 <div className="mt-4">
                     <h6 className="block text-md font-semibold text-gray-400 mb-2">I pay close attention to:</h6>
