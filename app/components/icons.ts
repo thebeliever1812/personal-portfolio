@@ -20,6 +20,8 @@ import {
 	SiShadcnui,
 	SiPostman,
 	SiVitest,
+	SiEjs,
+	SiMongoose,
 } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 import { IoLogoVercel } from "react-icons/io5";
@@ -49,4 +51,6 @@ export {
 	SiPostman,
 	SiVitest,
 	PiFigmaLogoThin,
+	SiEjs,
+	SiMongoose,
 };

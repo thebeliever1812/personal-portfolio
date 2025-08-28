@@ -7,6 +7,22 @@ const ProjectsContainer: React.FC = () => {
         <Container>
             <section className='w-full p-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-items-center gap-5'>
                 <ProjectCard
+                    title='Ghost Message'
+                    description='Ghost Message is a secure, anonymous messaging platform that allows users to send and receive any type of messages without revealing their identity. It offers a clean, modern UI, AI-powered message suggestions, and a smooth authentication flow — all built using a full-stack Next.js approach.'
+                    imageUrl='/ghost_message.png'
+                    liveLink='https://ghost-message-eta.vercel.app' githubLink='https://github.com/thebeliever1812/ghost-message'
+                    techStack={["TypeScript", "Next.js", "Tailwind CSS", "MongoDB", "NextAuth.js", "Shadcn UI"]}
+                    imageAltText='Screenshot provided of Ghost Message&apos;s dashboard'
+                />
+                <ProjectCard
+                    title='Blog App'
+                    description='Blog App — A full-featured blogging platform built with Node.js, Express, and MongoDB. It supports user authentication, post creation/editing, tags/categories, comments, and search, with server-rendered views and clean RESTful routes. Emphasis on secure auth, validation, and data modeling with Mongoose, plus a pragmatic folder structure for maintainability and growth. Deployed on Railway with environment-based configuration and production-ready middleware.'
+                    imageUrl='/nodejs_blog_app.png'
+                    liveLink='https://nodejs-blog-app.up.railway.app' githubLink='https://github.com/thebeliever1812/nodejs-blog-app'
+                    techStack={["JavaScript", "Bootstrap", "Express", "Node.js", "EJS", "MongoDB", "Mongoose"]}
+                    imageAltText='Screenshot provided of Blog&apos;s add blog page'
+                />
+                <ProjectCard
                     title='Whisprr'
                     description='Built a responsive blogging application using React, Appwrite, Tailwind CSS, and JavaScript. Implemented user authentication, CRUD operations, image uploads, secure API integration, protected routes, and a dynamic grid layout for displaying posts.'
                     imageUrl='/whisprr.png'

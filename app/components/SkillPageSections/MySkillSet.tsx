@@ -24,7 +24,9 @@ const MySkillSet: React.FC = () => {
         { skill: 'Express', className: 'text-white' },
         { skill: 'Nodejs', className: 'text-green-500' },
         { skill: 'MongoDB', className: 'text-green-600' },
-        { skill: 'Appwrite', className: 'text-rose-500' }
+        { skill: 'Appwrite', className: 'text-rose-500' },
+        { skill: 'Mongoose', className: 'text-red-800' },
+        { skill: 'Ejs', className: 'text-rose-900' },
     ];
     const languages: Skill[] = [
         { skill: 'Cpp', className: 'text-blue-500' },
@@ -40,7 +42,6 @@ const MySkillSet: React.FC = () => {
         { skill: "Postman", className: 'text-orange-600' },
         { skill: 'Figma', className: 'text-white' },
     ];
-
     return (
         <Container >
             <section className='flex flex-col items-center justify-center gap-4 px-4 lg:px-8'>

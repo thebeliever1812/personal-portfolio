@@ -33,7 +33,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title = 'No title', descripti
         return () => window.removeEventListener('resize', checkScreen); // cleanup
     }, []);
     return (
-        <div className="card shadow-[0_0_40px_1px_#1f004d] border border-gray-700 w-full max-w-[280px] group gap-2 rounded-2xl flex justify-end flex-col p-4 md:p-6 overflow-hidden bg-black/50 relative" >
+        <div className="card shadow-[0_0_40px_1px_#1f004d] border border-gray-700 w-full max-w-[280px] group gap-2 rounded-2xl flex justify-end flex-col p-4 md:p-6 overflow-hidden bg-black/50 relative cursor-pointer" >
             {/* This div is for background colour change when we hover on Card */}
             <div className={`absolute top-0 left-0 w-full h-full duration-500 ${isClicked ? 'bg-black/60' : ''} group-hover:bg-black/60 z-10`} onClick={() => isMobile && setIsClicked(prev => !prev)}>
             </div>
@@ -65,7 +65,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title = 'No title', descripti
                     {/* Description */}
                     <div className='h-fit w-full'>
                         <p className={`text-gray-400 ${rubik.className}`}>
-                            {description}
+                            {description.length > 150 ? `${description.substring(0, 150)}...` : description}
                         </p>
                     </div>
 
@@ -100,7 +100,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title = 'No title', descripti
     ${isMobile
                     ? isClicked ? "translate-y-0" : "translate-y-full"
                     : "translate-y-full group-hover:translate-y-0"}
-  `}>
+    `}>
                 <Button path={liveLink} className='min-w-24'>
                     Live
                 </Button>

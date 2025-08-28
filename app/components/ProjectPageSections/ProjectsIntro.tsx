@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Heading } from '../index'
+import { Container, Heading, HighlightText } from '../index'
 import { ParaContent } from '../HomePageSections'
 
 const ProjectsIntro: React.FC = () => {
@@ -9,15 +9,7 @@ const ProjectsIntro: React.FC = () => {
                 Projects
             </Heading>
             <ParaContent>
-                <p className="text-gray-400 leading-relaxed tracking-wide">
-                    Here are a few <span className="font-semibold text-white">projects</span> I&apos;ve built to strengthen my frontend development skills. Each one reflects my focus on
-                    <span className="font-semibold text-blue-600"> writing clean</span>,
-                    <span className="font-semibold text-blue-600"> responsive UIs</span>, and
-                    learning to work with real-world tools like
-                    <span className="font-medium text-white"> React</span>,
-                    <span className="font-medium text-white"> Next.js</span>, and
-                    <span className="font-medium text-white"> Tailwind CSS</span>.
-                </p>
+                <p className="text-gray-400 leading-relaxed tracking-wide"> This collection includes <HighlightText>frontend</HighlightText>, <HighlightText>backend</HighlightText>, and <HighlightText>full-stack</HighlightText> projects. Each showcases <HighlightText>clean code</HighlightText>, <HighlightText>responsive UI</HighlightText>, and <HighlightText>robust APIs</HighlightText>—built with <HighlightText>React</HighlightText>, <HighlightText>Next.js</HighlightText>, <HighlightText>Tailwind CSS</HighlightText>, <HighlightText>Node.js</HighlightText>, and <HighlightText>MongoDB</HighlightText>, with a focus on <HighlightText>performance</HighlightText> and <HighlightText>accessibility</HighlightText>. </p>
             </ParaContent>
         </Container>
     )
