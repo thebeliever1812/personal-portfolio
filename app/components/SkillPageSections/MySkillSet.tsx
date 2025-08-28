@@ -41,6 +41,7 @@ const MySkillSet: React.FC = () => {
         { skill: 'DevTools', className: 'text-white bg-blue-500 p-1 w-10 h-10 rounded-lg text-2xl flex justify-center items-center' },
         { skill: "Postman", className: 'text-orange-600' },
         { skill: 'Figma', className: 'text-white' },
+        { skill: 'Railway', className: 'text-white' },
     ];
     return (
         <Container >

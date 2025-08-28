@@ -25,7 +25,8 @@ import {
     SiVitest,
     PiFigmaLogoThin,
     SiEjs,
-    SiMongoose
+    SiMongoose,
+    SiRailway
 } from '../components/icons'
 import { motion, useScroll, useTransform } from 'motion/react'
 
@@ -74,7 +75,8 @@ const SkillIcon: React.FC<SkillIconProps> = ({ skill, className, classNameHomeBo
         Vitest: <SiVitest />,
         Figma: <PiFigmaLogoThin />,
         EJS: <SiEjs />,
-        Mongoose: <SiMongoose />
+        Mongoose: <SiMongoose />,
+        Railway: <SiRailway />
     }
 
     const filteredSkill = Object.entries(skills).filter(([key]) => key.toLowerCase() === skill.toLowerCase())

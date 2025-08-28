@@ -22,6 +22,7 @@ import {
 	SiVitest,
 	SiEjs,
 	SiMongoose,
+	SiRailway,
 } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 import { IoLogoVercel } from "react-icons/io5";
@@ -53,4 +54,5 @@ export {
 	PiFigmaLogoThin,
 	SiEjs,
 	SiMongoose,
+	SiRailway,
 };
