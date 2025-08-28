@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Heading } from '../index'
+import { Container, Heading, HighlightText } from '../index'
 import { ParaContent } from '../HomePageSections'
 
 const Intro: React.FC = () => {
@@ -9,9 +9,7 @@ const Intro: React.FC = () => {
                 Let&apos;s Connect
             </Heading>
             <ParaContent>
-                <p className='text-gray-400 leading-relaxed tracking-wide'>
-                    I&apos;m currently open to <span className='text-blue-600'>full-time frontend developer</span> roles and <span className='text-blue-600'>freelance opportunities</span>. Whether you have a job opening, a collaboration idea, or just want to say hello — I&apos;d love to hear from you.
-                </p>
+                <p className="text-gray-400 leading-relaxed tracking-wide"> Open to <HighlightText>full-time full-stack roles</HighlightText> &#40;Next.js + MERN&#41; and selective <HighlightText>freelance collaborations</HighlightText>. Whether it&apos;s a product opportunity, a project brief, or a quick question—feel free to reach out. Happy to chat about <HighlightText>clean UI</HighlightText>, <HighlightText>robust APIs</HighlightText>, and <HighlightText>scalable architectures</HighlightText>. </p>
             </ParaContent>
         </Container>
     )
