@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Heading } from '../index'
+import { Container, Heading, HighlightText } from '../index'
 import { ParaContent } from '../HomePageSections'
 
 const WhatSetsMeApart: React.FC = () => {
@@ -11,10 +11,10 @@ const WhatSetsMeApart: React.FC = () => {
 
             <ParaContent>
                 <p className="text-gray-400 leading-relaxed tracking-wide">
-                    I bring a strong sense of <span className="font-medium text-blue-600">visual detail</span> and a mindset focused on <span className="font-medium text-blue-600">problem-solving</span> and <span className="font-medium text-blue-600">continuous learning</span>. I treat every project as a real product—ensuring usability, performance, and maintainability.
+                    I bring a strong sense of <HighlightText>visual detail</HighlightText> and a mindset centered on <HighlightText>problem-solving</HighlightText>, <HighlightText>clean architecture</HighlightText>, and <HighlightText>continuous learning</HighlightText>. I treat every project like a real product—ensuring <HighlightText>usability</HighlightText>, <HighlightText>performance</HighlightText>, and <HighlightText>maintainability</HighlightText> across the stack.
                 </p>
                 <p className="text-gray-400 leading-relaxed tracking-wide">
-                    Even without industry experience, I&apos;ve dedicated the last 6+ months to learning by building <span className="font-medium text-blue-600">realistic frontend projects</span> and developing a <span className="font-medium text-blue-600">professional workflow</span>. My goal is always to deliver <span className="font-semibold text-white">clean code</span>, <span className="font-semibold text-white">thoughtful UI/UX</span>, and a <span className="font-semibold text-white">positive user experience</span>.
+                    Recently, I&apos;ve evolved from a frontend focus to building <HighlightText>full-stack</HighlightText> solutions with <HighlightText>Next.js</HighlightText> and the <HighlightText>MERN stack</HighlightText>—shipping features end to end with <HighlightText>RESTful APIs</HighlightText>, <HighlightText>authentication</HighlightText>, and <HighlightText>robust data models</HighlightText>. My goal is to deliver <HighlightText>clean code</HighlightText>, <HighlightText>thoughtful UI/UX</HighlightText>, and a <HighlightText>positive, reliable user experience</HighlightText>.
                 </p>
             </ParaContent>
         </Container>
