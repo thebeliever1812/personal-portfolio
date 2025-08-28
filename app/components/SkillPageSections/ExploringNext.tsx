@@ -7,32 +7,35 @@ const ExploringNext: React.FC = () => {
             <ParaContent>
                 <h3 className="text-2xl font-semibold">Currently Exploring</h3>
                 <p className="text-gray-400 leading-relaxed text-base tracking-wide">
-                    As I continue to grow as a frontend developer, I&apos;m actively exploring new tools and practices that can enhance my skills and make me a more efficient contributor in real-world projects. Here&apos;s what&apos;s on my learning radar:
+                    Growing as a full-stack developer, actively exploring tools and practices that improve reliability, performance, and developer experience across the stack. Here&apos;s what&apos;s on the learning radar.
                 </p>
-                <ul className="space-y-3 text-gray-400 leading-relaxed tracking-wide grid sm:grid-cols-2 gap-3">
+                <ul className="space-y-3 text-gray-400 leading-relaxed tracking-wide grid sm:grid-cols-2 gap-3 text-start">
                     <li className="flex items-start gap-2 text-gray-400">
-                        <span className="text-lg mt-1">📘</span>
-                        <span><strong className='text-white'>Leveling Up in TypeScript</strong> — for writing safer, scalable frontend code</span>
+                        <span className="text-lg mt-1">📘</span> <span><strong className="text-white">Advanced TypeScript</strong> — stricter types, safer APIs, and better DX across frontend and backend</span>
                     </li>
                     <li className="flex items-start gap-2 text-gray-400">
-                        <span className="text-lg mt-1">🧪</span>
-                        <span><strong className='text-white'>React Testing Libraries</strong> — to ensure UI reliability and maintainability</span>
+                        <span className="text-lg mt-1">🧪</span> <span><strong className="text-white">Testing</strong> — React Testing Library and Vitest for UI, plus integration tests for APIs</span>
                     </li>
                     <li className="flex items-start gap-2 text-gray-400">
-                        <span className="text-lg mt-1">⚙️</span>
-                        <span><strong className='text-white'>Next.js Server Actions & Caching</strong> — to understand fullstack capabilities</span>
+                        <span className="text-lg mt-1">💳</span> <span><strong className="text-white">Payment Integrations</strong> — Stripe/Razorpay flows, webhooks, subscriptions, refunds, and PCI-aware UX</span>
                     </li>
                     <li className="flex items-start gap-2 text-gray-400">
-                        <span className="text-lg mt-1">♿</span>
-                        <span><strong className='text-white'>Accessibility (a11y)</strong> — for building inclusive web experiences</span>
+                        <span className="text-lg mt-1">🟢</span> <span><strong className="text-white">Realtime with WebSockets</strong> — Socket.io/Ably/Pusher for chat, presence, notifications, and live dashboards</span>
                     </li>
                     <li className="flex items-start gap-2 text-gray-400">
-                        <span className="text-lg mt-1">🎯</span>
-                        <span><strong className='text-white'>Framer Motion</strong> — for adding smooth, user-friendly animations</span>
+                        <span className="text-lg mt-1">☁️</span> <span><strong className="text-white">Serverless & Edge</strong> — Vercel Functions/Edge Runtime, background jobs, schedulers, and cold-start trade-offs</span>
                     </li>
                     <li className="flex items-start gap-2 text-gray-400">
-                        <span className="text-lg mt-1">🚀</span>
-                        <span><strong className='text-white'>CI/CD Basics</strong> — for faster and more reliable deployment workflow</span>
+                        <span className="text-lg mt-1">🗃️</span> <span><strong className="text-white">Data Modeling & Indexing</strong> — MongoDB schema design, aggregations, indexes, and query performance</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-gray-400">
+                        <span className="text-lg mt-1">🧩</span> <span><strong className="text-white">API Design Patterns</strong> — idempotent webhooks, rate limiting, pagination, and validation with Zod</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-gray-400">
+                        <span className="text-lg mt-1">🔍</span> <span><strong className="text-white">Observability</strong> — logging/metrics, error tracking, and tracing for serverless apps</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-gray-400">
+                        <span className="text-lg mt-1">🚀</span> <span><strong className="text-white">CI/CD & Deployments</strong> — Vercel workflows, env management, and basic GitHub Actions</span>
                     </li>
                 </ul>
             </ParaContent>
