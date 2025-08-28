@@ -5,24 +5,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
     title: "Skills",
-    description: "Showcasing my frontend skillset, tools, and technologies I've used while building projects with React, Next.js, TypeScript, Tailwind CSS, and more.",
-    keywords: [
-        'Basir Ahmad',
-        'Frontend Skills',
-        'React Developer Skills',
-        'Next.js Skills',
-        'TypeScript Developer',
-        'Web Developer Tools',
-        'Git and GitHub',
-        'Tailwind CSS',
-        'Appwrite',
-        'Frontend Technologies',
-        'JavaScript Developer',
-        'Skills Page',
-        'Frontend Developer Portfolio',
-        'BCA Developer',
-        'Web Development Tools'
-    ]
+    description: "Explore my skills as a full-stack developer, from frontend with React and Next.js to backend with Node.js, Express, MongoDB, and authentication."
 }
 
 const Skills: React.FC = () => {

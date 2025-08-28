@@ -2,11 +2,9 @@ import { Metadata } from "next";
 import { HeroSection, AboutMeSection, ProjectSpotlight, CoreTechnologies, ContactSection } from "./components/HomePageSections";
 
 export const metadata: Metadata = {
-  title: 'Basir Ahmad | Frontend Developer Portfolio',
+  title: 'Basir Ahmad | Full-stack Developer Portfolio',
   description:
-    'Welcome to the portfolio of Basir Ahmad, showcasing featured projects, skills, and contact information for frontend development roles.',
-  keywords:
-    'Basir Ahmad, frontend developer, web developer, portfolio, web development, projects, skills, contact',
+    'Welcome to the portfolio of Basir Ahmad, a full-stack developer skilled in MERN and Next.js, crafting scalable apps with modern UI and clean code.',
 };
 
 export default function Home() {

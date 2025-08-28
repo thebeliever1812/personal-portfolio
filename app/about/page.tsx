@@ -4,24 +4,7 @@ import { WhoIAm, WhatIDo, TechStack, Education, WhatSetsMeApart, WhatIWant } fro
 
 export const metadata: Metadata = {
     title: 'About Me',
-    description: 'Learn more about Basir Ahmad, discover the frontend technologies he works with, and explore his journey in web development.',
-    keywords: [
-        'Basir Ahmad',
-        'About Basir Ahmad',
-        'Frontend Developer Bio',
-        'Web Developer Introduction',
-        'React Developer from Delhi',
-        'BCA Graduate Developer',
-        'Self-taught Frontend Developer',
-        'Portfolio About Page',
-        'Web Development Journey',
-        'Basir Ahmad Developer Journey',
-        'Frontend Developer from India',
-        'Learning Frontend Development',
-        'CodeHelp DSA Certified',
-        'Junior Frontend Developer',
-        'Beginner Web Developer Story'
-    ]
+    description: "I'm Basir Ahmad, a full-stack developer skilled in MERN and Next.js, passionate about building scalable apps, clean architecture, and modern UI.",
 }
 
 const About: React.FC = () => {

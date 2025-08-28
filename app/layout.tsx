@@ -5,35 +5,17 @@ import { Footer } from "./components/Footer";
 
 export const metadata: Metadata = {
   title: {
-    default: "Basir Ahmad | Frontend Developer",
+    default: "Basir Ahmad | Full-stack Developer",
     template: "%s | Basir Ahmad"
   },
-  description: "Basir Ahmad is a frontend developer from Delhi, India, building responsive and user-friendly web applications using Next.js, React, TypeScript and Tailwind CSS.",
-  keywords: [
-    'Basir Ahmad',
-    'Frontend Developer',
-    'Next.js',
-    'React',
-    'TypeScript',
-    'Tailwind CSS',
-    'JavaScript',
-    'Web Developer',
-    'Frontend Projects',
-    'Web Development',
-    'Delhi',
-    'Responsive UI',
-    'Modern Web Technologies',
-    'User-friendly',
-    'BCA',
-    'Appwrite',
-  ],
+  description: "Full-stack developer skilled in MERN and Next.js, building scalable web apps with modern UI, clean architecture, and real-world functionality.",
   authors: [{ name: "Basir Ahmad", url: "https://basir-ahmad-portfolio.vercel.app" }],    // Add your portfolio link
   creator: "Basir Ahmad",
   metadataBase: new URL('https://basir-ahmad-portfolio.vercel.app'),       // Add your portfolio link
   openGraph: {
-    title: 'Basir Ahmad | Frontend Developer',
+    title: 'Basir Ahmad | Full-stack Developer',
     description:
-      'Basir Ahmad is a frontend developer from Delhi, India, building responsive and user-friendly web applications using Next.js, React, TypeScript and Tailwind CSS.',
+      'Full-stack developer skilled in MERN and Next.js, building scalable web apps with modern UI, clean architecture, and real-world functionality.',
     url: 'https://basir-ahmad-portfolio.vercel.app',     // Add your portfolio link
     siteName: 'Basir Ahmad Portfolio',
     locale: 'en_IN',
@@ -49,10 +31,11 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Basir Ahmad | Frontend Developer',
+    title: 'Basir Ahmad | Full-stack Developer',
     description:
-      'Basir Ahmad is a frontend developer from Delhi, India, building responsive and user-friendly web applications using Next.js, React, TypeScript and Tailwind CSS.',
+      'Full-stack developer skilled in MERN and Next.js, building scalable web apps with modern UI, clean architecture, and real-world functionality.',
     creator: '@BasirAhmad1812',
+    images: ["https://basir-ahmad-portfolio.vercel.app/og-image.png"],
   },
 };
 
