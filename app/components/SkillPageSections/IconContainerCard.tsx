@@ -27,7 +27,7 @@ const IconContainerCard: React.FC<IconContainerCardProps> = ({ heading, children
             <h3 className='text-2xl font-semibold'>
                 {heading}
             </h3>
-            <ul className='list-none grid grid-cols-2 gap-5 mt-2 sm:grid-cols-3 justify-items-center'>
+            <ul className='list-none grid grid-cols-2 gap-x-12 gap-y-5 mt-2 sm:grid-cols-3 justify-items-center'>
                 {React.Children.map(children, (child, index) => (
                     <li key={index} className='flex justify-center items-center'>
                         {child}

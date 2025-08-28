@@ -14,7 +14,7 @@ const SkillGroup: React.FC = () => {
         { skill: 'Nextjs', className: 'text-white lg:text-black' },
         { skill: 'MongoDB', className: 'text-green-600' },
         { skill: 'Express', className: 'text-white lg:text-black' },
-        { skill: 'Nodejs', className: 'text-green-600' },
+        { skill: 'Nodejs', className: 'text-green-500' },
     ]
 
     return (

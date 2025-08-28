@@ -18,7 +18,12 @@ import {
     FaChrome,
     SiMongodb,
     FaNodeJs,
-    SiExpress
+    SiExpress,
+    SiCplusplus,
+    SiShadcnui,
+    SiPostman,
+    SiVitest,
+    PiFigmaLogoThin
 } from '../components/icons'
 import { motion, useScroll, useTransform } from 'motion/react'
 
@@ -60,7 +65,12 @@ const SkillIcon: React.FC<SkillIconProps> = ({ skill, className, classNameHomeBo
         DevTools: <FaChrome />,
         MongoDB: <SiMongodb />,
         Nodejs: <FaNodeJs />,
-        Express: <SiExpress />
+        Express: <SiExpress />,
+        Cpp: <SiCplusplus />,
+        Shadcn: <SiShadcnui />,
+        Postman: <SiPostman />,
+        Vitest: <SiVitest />,
+        Figma: <PiFigmaLogoThin />
     }
 
     const filteredSkill = Object.entries(skills).filter(([key]) => key.toLowerCase() === skill.toLowerCase())
