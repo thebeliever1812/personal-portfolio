@@ -4,7 +4,7 @@ import React from 'react'
 const ResumeButton: React.FC = () => {
     return (
         <a
-            href="/Basir Ahmad_Fullstack_Resume.pdf"
+            href="/Basir_Ahmad_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
         >
